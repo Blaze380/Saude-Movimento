@@ -1,0 +1,248 @@
+doctype html
+html(lang="en")
+  include ../components/headerfile
+  +headerfile('Blog Detail')
+  body
+
+    // loader start
+    +loader
+    // loader end
+
+    // header start       
+    include ../components/header
+    // header end
+
+    // Breadcrumb Start
+    +breadcrumb('Blog Single')
+    // Breadcrumb end
+
+    // Blog Start
+    section.blog-detail.space-py-100
+      .container
+        .row.cdx-row
+          .col-lg-4
+            .blog-sidebar
+              .card.search(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+                .card-body.blog-card
+                  h5 Search
+                  form.search-form(action="#")
+                    .input-group
+                      input.form-control(type='text' placeholder='Search Here...' required)
+                      span.input-group-text
+                        button.btn.btn-primary(type='submit')
+                          i.fa.fa-search
+              .card(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+                .card-body.blog-card
+                  h5 Category
+                  ul.category-list
+                    li
+                      a(href='Javascript:void(0)')
+                        | Yoga &amp; Meditation
+                        span (10)
+                    li
+                      a(href='Javascript:void(0)')
+                        | Training
+                        span (15)
+                    li
+                      a(href='Javascript:void(0)')
+                        | Fitness Workout
+                        span (20)
+                    li
+                      a(href='Javascript:void(0)')
+                        | Challenge
+                        span (25)
+                    li
+                      a(href='Javascript:void(0)')
+                        | Yoga Tutorials
+                        span (30)
+              .card(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+                .card-body.blog-card
+                  h5 Recent Post
+                  .media
+                    .img-wrap
+                      img.img-fluid(src='../assets/images/blog/4.jpg' alt='blog post')
+                    .media-body
+                      h6
+                        a(href='Javascript:void(0)') It is a long established fact that a reader
+                      span
+                        i.fa.fa-clock-o
+                        | 09 Aug, 2022
+                  .media
+                    .img-wrap
+                      img.img-fluid(src='../assets/images/blog/5.jpg' alt='blog post')
+                    .media-body
+                      h6
+                        a(href='Javascript:void(0)') It is a long established fact that a reader
+                      span
+                        i.fa.fa-clock-o
+                        | 15 Aug, 2022
+                  .media
+                    .img-wrap
+                      img.img-fluid(src='../assets/images/blog/6.jpg' alt='blog post')
+                    .media-body
+                      h6
+                        a(href='Javascript:void(0)') It is a long established fact that a reader
+                      span
+                        i.fa.fa-clock-o
+                        | 29 Sept, 2022
+              .card(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+                .card-body.blog-card
+                  h5 Follow Us
+                  ul.social-link
+                    li
+                      a(href='Javascript:void(0)')
+                        i.fa.fa-facebook-f
+                    li
+                      a(href='Javascript:void(0)')
+                        i.fa.fa-twitter
+                    li
+                      a(href='Javascript:void(0)')
+                        i.fa.fa-dribbble
+                    li
+                      a(href='Javascript:void(0)')
+                        i.fa.fa-whatsapp
+                    li
+                      a(href='Javascript:void(0)')
+                        i.fa.fa-youtube
+              .card(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800").mb-0
+                .card-body.blog-card
+                  h5 Popular Tags
+                  ul.tag-list
+                    li
+                      a(href='Javascript:void(0)') Yoga
+                    li
+                      a(href='Javascript:void(0)') Meditation
+                    li
+                      a(href='Javascript:void(0)') Fitness
+                    li
+                      a(href='Javascript:void(0)') Basic
+                    li
+                      a(href='Javascript:void(0)') Trainer
+                    li
+                      a(href='Javascript:void(0)') Workout
+                    li
+                      a(href='Javascript:void(0)') Tutorial
+          .col-lg-8
+            .blogsingle-detail
+              .card(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+                .card-body
+                  .img-wrap
+                    img.img-fluid(src='../assets/images/blog/blogone.jpg' alt='')
+                  .blog-detail
+                    h4 It is a long established fact that a reader
+                    p Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                    p this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.
+              .card(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+                .card-body
+                  h4 blog quate
+                  blockquote.blockqoute
+                    | It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution.
+                    h6 Mark Crawford
+              .card(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+                .card-body
+                  .row.blogimg-wrap
+                    .col-md-6
+                      img.img-fluid(src='../assets/images/blog/1.jpg' alt='')
+                    .col-md-6
+                      img.img-fluid(src='../assets/images/blog/2.jpg' alt='')
+                  p.wow.fadeInUp In a free hour when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection.
+                  p.wow.fadeInUp Power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection.                           
+              .card(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+                .card-body
+                  .blog-comments
+                    h4 Comments (20)
+                    ul.comments-list
+                      li
+                        .media
+                          .img-wrap
+                            img.img-fluid(src='../assets/images/avtar/2.jpg' alt='')
+                          .media-body                   
+                            h5 Raymond Gill
+                              ul.blog-actionlist
+                                li
+                                  i(data-feather="thumbs-up")
+                                  | 120 
+                                li
+                                  i(data-feather="thumbs-down")                               
+                                  | 63
+                            span
+                              i.fa.fa-clock-o
+                              |  Aug 29, 2022
+                            p
+                              | There are many variations of passages the majority have suffered in some injected humour or randomised words which don&apos;t look even slightly believable.
+                            a.btn.btn-outline-primary.btn-xs(href='Javascript:void(0)')
+                              i.fa.fa-reply
+                              |  Reply
+                      li.comments-reply
+                        .media
+                          .img-wrap
+                            img.img-fluid(src='../assets/images/avtar/3.jpg' alt='')
+                          .media-body
+                            h5 Miranda Doe
+                              ul.blog-actionlist
+                                li
+                                  i(data-feather="thumbs-up")
+                                  | 88
+                                li
+                                  i(data-feather="thumbs-down")                               
+                                  | 05
+                            span
+                                i.fa.fa-clock-o
+                                |  Sept 05, 2022
+                            p
+                              | There are many variations of passages the majority have suffered in some injected humour or randomised words which don&apos;t look even slightly believable.
+                            a.btn.btn-outline-primary.btn-xs(href='Javascript:void(0)')
+                              i.fa.fa-reply
+                              |  Reply
+                      li
+                        .media
+                          .img-wrap
+                            img.img-fluid(src='../assets/images/avtar/4.jpg' alt='')
+                          .media-body
+                            h5 Cosmo Kito
+                              ul.blog-actionlist
+                                li
+                                  i(data-feather="thumbs-up")
+                                  | 99 
+                                li
+                                  i(data-feather="thumbs-down")                               
+                                  | 125
+                            span
+                                i.fa.fa-clock-o
+                                |  Sept 16, 2022
+                            p
+                              | There are many variations of passages the majority have suffered in some injected humour or randomised words which don&apos;t look even slightly believable.
+                            a.btn.btn-outline-primary.btn-xs(href='Javascript:void(0)')
+                              i.fa.fa-reply
+                              |  Reply
+              .card(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+                .card-body
+                  .comments-form
+                    h4 Leave A Comment
+                    form(action='#')
+                      .form-group                       
+                        .group-small 
+                          div                        
+                            input.form-control(type='text' placeholder='Your Name' required)
+                          div
+                            input.form-control(type='email' placeholder='Your Email' required)                       
+                      .form-group.mb-0
+                        textarea.form-control(rows='5' placeholder='Your Comment' required)
+                      button.btn.btn-primary(type='submit') Post Comment
+    // Blog End
+
+       
+    // footer start       
+    include ../components/footer
+    // footer end
+
+    // theme customizer start
+    +customizer
+    // theme customizer end
+
+    // Tap To Top Start
+    a.scroll-top(href='Javascript:void(0)')
+      i.fa.fa-angle-double-up
+    // Tap To Top End
+
+    include ../components/footerfile

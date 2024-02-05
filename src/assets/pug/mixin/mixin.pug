@@ -1,0 +1,387 @@
+mixin customizer
+  .theme-customizer
+    .darkmode-btn
+      i(data-feather="moon")
+    .lightmode-btn  
+      i(data-feather="sun")
+mixin loader
+  .codex-loader 
+    ul
+      li
+      li
+      li
+      li
+      li
+      li
+mixin breadcrumb(pagename)
+  section.codex-breadcrumb
+    .container
+      .row
+        .col-12
+          h2.breadcrumb-title.wow.fadeInLeft= pagename
+          ul.breadcrumb-menu.wow.fadeInRight
+            li
+              a(href='index.html') Home
+            li.active= pagename
+
+mixin title(subtitle,title)
+  .title.wow.fadeInDown
+    span= subtitle
+    h2= title
+
+mixin aboutus
+  section.about-us.space-py-100
+    .container
+      .row.align-items-center
+        .col-lg-6(data-sal-delay="100" data-sal="slide-right" data-sal-duration="800")
+          .img-wrap
+            img.img-fluid(src='../assets/images/about/1.jpg' alt='')
+        .col-lg-6(data-sal-delay="140" data-sal="slide-left" data-sal-duration="800")
+          .about-right
+            h2 Take your Yoga to the next level with yogwe
+            p
+              | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.
+            ul.about-list
+              li 
+                i.fa.fa-check               
+                | Nullam rhoncus dictum diam quis ultrices.
+              li
+                i.fa.fa-check               
+                | Nunc fermentum sem sit amet dolor laoreet placerat.
+              li
+                i.fa.fa-check               
+                | Fusce justo risus placerat in risus eget tincidunt consequat elit.
+              li
+                i.fa.fa-check               
+                | Integer quis lorem est uspendisse eu augue porta ullamcorper dictum.
+            a.btn.btn-primary(href='about-us.html')
+              | Discover More             
+    ul.cdx-shap
+      li
+        img.img-fluid(src='../assets/images/shap/5.png' alt='')
+
+mixin featuregrid(ftitle,featuresimg)
+  .feature-grid
+    .icon-wrap     
+      img.img-fluid(src="../assets/images/features/"+ featuresimg , alt= features)
+    .feature-detail
+      h5= ftitle
+      p
+        | It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+mixin countergrid
+  section.codex-counter
+    .container
+      .row.cdx-row
+        .col-lg-3.col-sm-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+          .counter-grid
+            .icon-wrap
+              img.img-fluid(src='../assets/images/counter/1.png' alt='')
+            span
+              span.counter 5000
+              |  +
+            h6 Expert Trainers
+        .col-lg-3.col-sm-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+          .counter-grid
+            .icon-wrap
+              img.img-fluid(src='../assets/images/counter/2.png' alt='')
+            span
+              span.counter 2500
+              |  +
+            h6 Happy Clients
+        .col-lg-3.col-sm-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+          .counter-grid
+            .icon-wrap
+              img.img-fluid(src='../assets/images/counter/3.png' alt='')
+            span
+              span.counter 1200
+              |  +
+            h6 Total Branches
+        .col-lg-3.col-sm-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+          .counter-grid
+            .icon-wrap
+              img.img-fluid(src='../assets/images/counter/4.png' alt='')
+            span
+              span.counter 500
+              |  +
+            h6 Award Winning
+
+
+mixin classgrid(clsfee,yogatype,yogateacher,teacherimg,clsimg) 
+  .class-grid
+    .img-wrap    
+      img.img-fluid(src="../assets/images/classes/"+ clsimg , alt= classes)     
+    .detail-wrap
+      ul.auth-info
+        li
+          .class-day-time
+            span.class-day
+              i.fa.fa-calendar
+              | Mon, Thu
+            span.class-time
+              i.fa.fa-clock-o
+              | 9:00 - 10:00
+        li
+          .class-price $129
+      h3.class-title
+        a(href='class-detail.html')= yogatype
+      p There are many variations of passages available but the majority have suffered alteration injected.
+      .class-footer
+        .media         
+          img.img-fluid(src="../assets/images/avtar/"+ teacherimg , alt= teacherimg)
+          .media-body
+            h6= yogateacher
+            p Yoga Teacher
+        a.btn.btn-primary(href='class-detail.html')
+          | Read More 
+
+
+mixin pricinggrid(clsname,plantype,price,addcls1,addcls2,addcls3,addcls4,addcls5,addcls6)
+  .pricing-grid(class= clsname)
+    .price-header.text-center
+      h5= plantype
+      strong= price
+        span / M
+    .price-body
+      .pricing-list
+        ul
+          li(class= addcls1)
+            i.ti-check
+            | Free Tutorials
+          li(class= addcls2)
+            i.ti-check
+            |  Group Training
+          li(class= addcls3)
+            i.ti-check
+            | Special Classes
+          li(class= addcls4)
+            i.ti-check
+            | Personal Trainer
+          li(class= addcls5)
+            i.ti-check
+            | Using all Tools
+          li(class= addcls6)
+            i.ti-check
+            | 24/7 Online Support
+        a.btn.btn-primary(href='contact.html')
+          | Get Started 
+
+mixin timesedual
+  .time-schedule-table.table-responsive
+    table.table.table-bordered.text-center(cellspacing='10' style='border-collapse:separate;')
+      thead
+        tr
+          th
+            img.img-fluid(src='../assets/images/schedule.png' alt='')
+          th Monday
+          th Tuesday
+          th Wednesday
+          th Thursday
+          th Friday
+          th Saturday
+          th Sunday
+      tbody
+        tr
+          td
+            | 9:00 
+            span AM
+          td
+            h6 Ashtanga Yoga
+            a(href='team-detail.html') Zahra Sharif
+          td
+            h6 Vinyasa Yoga
+            a(href='team-detail.html') Ruth Edwards
+          td
+          td
+            h6 Hatha Yoga
+            a(href='team-detail.html') Alena Jopsep
+          td
+            h6 Kundalini Yoga
+            a(href='team-detail.html') Raymond Gill
+          td
+          td
+            h6 Iyengar Yoga
+            a(href='team-detail.html') Cosmo Kito
+        tr
+          td
+            | 10:00 
+            span AM
+          td
+          td
+            h6 Aerial Yoga
+            a(href='team-detail.html') Omini Green
+          td.active
+            h6 Face Yoga
+            a(href='team-detail.html') Raymond Gill
+          td
+            h6 Yin Yoga
+            a(href='team-detail.html') Cosmo Kito
+          td
+          td
+            h6 Yang Yoga
+            a(href='team-detail.html') Zahra Sharif
+          td
+            h6 Power Yoga
+            a(href='team-detail.html') Ruth Edwards
+        tr
+          td
+            | 11:00 
+            span AM
+          td
+            h6 Prenatal Yoga
+            a(href='team-detail.html') Alena Jopsep
+          td
+            h6 Hatha Yoga
+            a(href='team-detail.html') Raymond Gill
+          td
+          td
+            h6 Vinyasa Yoga
+            a(href='team-detail.html') Zahra Sharif
+          td
+            h6 Kundalini Yoga
+            a(href='team-detail.html') Ruth Edwards
+          td
+          td
+            h6 Iyengar Yoga
+            a(href='team-detail.html') Cosmo Kito
+        tr
+          td
+            | 12:00 
+            span AM
+          td
+            h6 Aerial Yoga
+            a(href='team-detail.html') Miranda Doe
+          td
+            h6 Face Yoga
+            a(href='team-detail.html') Omini Green
+          td
+            h6 Power Yoga
+            a(href='team-detail.html') Ruth Edwards
+          td
+          td
+            h6 Restorative Yoga
+            a(href='team-detail.html') Zahra Sharif
+          td
+            h6 Prenatal Yoga
+            a(href='team-detail.html') Ruth Edwards
+          td
+   
+
+mixin gallery
+  .container
+    .row
+      .col-12
+        ul.cdx-tabs.wow.fadeInDown
+          li.active(data-filter='*') All
+          li(data-filter='.hatha') Hatha
+          li(data-filter='.pilates') Pilates
+          li(data-filter='.bodyminde') Body &amp; Mind
+          li(data-filter='.children') Children
+          li(data-filter='.fitness') Fitness
+    .row.photo-gallery.cdx-row.position-relative
+      .col-lg-4.col-sm-6.mix.hatha(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+        .gallery-grid
+          .img-wrap
+            img.img-fluid(src='../assets/images/gallery/1.jpg' alt='')
+            a.gallery-link(href='javascript:void(0)' data-fancybox='gallery' data-src='../assets/images/gallery/1.jpg' data-caption='' tabindex='0')
+              i.ti-plus
+      .col-lg-4.col-sm-6.mix.pilates(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+        .gallery-grid
+          .img-wrap
+            img.img-fluid(src='../assets/images/gallery/2.jpg' alt='')
+            a.gallery-link(href='javascript:void(0)' data-fancybox='gallery' data-src='../assets/images/gallery/2.jpg' data-caption='' tabindex='0')
+              i.ti-plus
+      .col-lg-4.col-sm-6.mix.bodyminde(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+        .gallery-grid
+          .img-wrap
+            img.img-fluid(src='../assets/images/gallery/3.jpg' alt='')
+            a.gallery-link(href='javascript:void(0)' data-fancybox='gallery' data-src='../assets/images/gallery/3.jpg' data-caption='' tabindex='0')
+              i.ti-plus
+      .col-lg-4.col-sm-6.mix.children(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+        .gallery-grid
+          .img-wrap
+            img.img-fluid(src='../assets/images/gallery/4.jpg' alt='')
+            a.gallery-link(href='javascript:void(0)' data-fancybox='gallery' data-src='../assets/images/gallery/4.jpg' data-caption='' tabindex='0')
+              i.ti-plus
+      .col-lg-4.col-sm-6.mix.hatha.fitness(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+        .gallery-grid
+          .img-wrap
+            img.img-fluid(src='../assets/images/gallery/5.jpg' alt='')
+            a.gallery-link(href='javascript:void(0)' data-fancybox='gallery' data-src='../assets/images/gallery/5.jpg' data-caption='' tabindex='0')
+              i.ti-plus
+      .col-lg-4.col-sm-6.mix.children(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+        .gallery-grid
+          .img-wrap
+            img.img-fluid(src='../assets/images/gallery/6.jpg' alt='')
+            a.gallery-link(href='javascript:void(0)' data-fancybox='gallery' data-src='../assets/images/gallery/6.jpg' data-caption='' tabindex='0')
+              i.ti-plus
+      ul.cdx-shap
+        li
+          img.img-fluid(src='../assets/images/shap/7.png' alt='')
+
+mixin teamgrid(teamname,teamimg)
+  .team-grid
+    .img-wrap     
+      img.img-fluid(src="../assets/images/team/"+ teamimg , alt= team)
+      ul.social-list
+        li
+          a(href='javascript:void(0);')
+            i.fa.fa-facebook-f
+        li
+          a(href='javascript:void(0);')
+            i.fa.fa-twitter
+        li
+          a(href='javascript:void(0);')
+            i.fa.fa-linkedin
+        li
+          a(href='javascript:void(0);')
+            i.fa.fa-youtube
+    .team-detail
+      .team-bio
+        h5
+          a(href='team-detail.html')= teamname
+        span Yoga Teacher
+
+mixin testimonialgrid(name,testimg)
+  div
+    .testimonial-grid
+      .testimonial-detail
+        .img-wrap
+          img.img-fluid(src="../assets/images/avtar/"+ testimg , alt= testimonial)
+        .author-info
+          h4= name
+          p Founder &amp; CEO
+          ul.rating-list
+            li
+              i.fa.fa-star
+            li
+              i.fa.fa-star
+            li
+              i.fa.fa-star
+            li
+              i.fa.fa-star
+            li
+              i.fa.fa-star
+      p
+        | Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer.
+      .quote-wrap
+        img.img-fluid(src='../assets/images/testimonial/quote.png' alt='')
+
+
+mixin bloggrid(name,date,blogimg)
+  .blog-grid
+    .img-wrap     
+      img.img-fluid(src="../assets/images/blog/"+ blogimg , alt= blog)     
+    .blog-detail
+      h4
+        a(href='blog-detail.html') Reasons Why Yoga Is Getting More Popular In The Past Decade.
+      ul.auth-detail
+        li
+          a(href='javascript:void(0);')
+            i.fa.fa-user-o
+            = name
+        li
+          a(href='javascript:void(0);')
+            i.fa.fa-calendar
+            = date     
+      p Learning Yoga Is Not Difficult At All! You Just blanditiis deleni Need A Great Teacher.
+      a.btn.btn-primary.btn-sm(href='blog-detail.html') Read More 

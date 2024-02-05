@@ -1,0 +1,71 @@
+doctype html
+html(lang="en")
+  include ../components/headerfile
+  +headerfile('Team Detail')
+  body
+
+    // loader start
+    +loader
+    // loader end
+
+    // header start       
+    include ../components/header
+    // header end
+
+    // Breadcrumb Start
+    +breadcrumb('Team Single')
+    // Breadcrumb end
+
+    // team start
+    section.team-detail.space-py-100
+      .container
+        .card.team-info
+          .card-body
+            .row.align-items-center
+              .col-xxl-4.col-lg-6(data-sal-delay="100" data-sal="slide-right" data-sal-duration="800")
+                .img-wrap
+                  img.img-fluid(src='../assets/images/team/teamone.jpg' alt='')
+              .col-xxl-8.col-lg-6(data-sal-delay="100" data-sal="slide-left" data-sal-duration="800")
+                .team-detail
+                  h3 Zahra G Sharif
+                  p Yoga Teacher
+                  ul.contact-list
+                    li
+                      span.info-left Phone:
+                      span.info-right
+                        a(href='tel:+38012365XXXXX') +380 123 65X XXXX 
+                    li
+                      span.info-left Email:
+                      span.info-right
+                        a(href='mailto:support@example.com') support@example.com
+                    li
+                      span.info-left Speciality:
+                      span.info-right Yoga Training
+                    li
+                      span.info-left Experience:
+                      span.info-right 09 Years
+                    li
+                      span.info-left Address:
+                      span.info-right 29/C Mizza Road, Ukraine
+                    li
+                      span.info-left Website:
+                      span.info-right
+                        a(href='https://www.example.com/') www.example.com                 
+                  p
+                    | There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&apos;t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn&apos;t anything embarrassing hidden in the middle of text.
+    // team end
+
+    // footer start       
+    include ../components/footer
+    // footer end
+
+    // theme customizer start
+    +customizer
+    // theme customizer end
+
+    // Tap To Top Start
+    a.scroll-top(href='Javascript:void(0)')
+      i.fa.fa-angle-double-up
+    // Tap To Top End
+
+    include ../components/footerfile

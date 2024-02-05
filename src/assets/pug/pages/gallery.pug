@@ -1,0 +1,38 @@
+-var gallery = true ;
+doctype html
+html(lang="en")
+  include ../components/headerfile
+  +headerfile('Gallery')
+  body
+
+    // loader start
+    +loader
+    // loader end
+
+    // header start       
+    include ../components/header
+    // header end
+
+    // Breadcrumb Start
+    +breadcrumb('Gallery')
+    // Breadcrumb end
+
+    // gallery start
+    section.gallery.space-py-100
+      +gallery
+    // gallery end
+       
+    // footer start       
+    include ../components/footer
+    // footer end
+
+    // theme customizer start
+    +customizer
+    // theme customizer end
+
+    // Tap To Top Start
+    a.scroll-top(href='Javascript:void(0)')
+      i.fa.fa-angle-double-up
+    // Tap To Top End
+
+    include ../components/footerfile

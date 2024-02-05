@@ -1,0 +1,399 @@
+doctype html
+html(lang="en")
+
+  include ../components/headerfile
+  +headerfile('landing')
+
+  body
+
+    // header start
+    header.land-header.fixed
+      .container
+        .row
+          .col-12
+            .header-contain.position-relative
+              .codex-brand
+                a(href='#')
+                  img.img-fluid.light-logo(src='../assets/images/logo/logo.png' alt='')
+                  img.img-fluid.dark-logo(src='../assets/images/logo/logo-light.png' alt='')
+              .d-flex.align-items-center               
+                ul.menu-list               
+                  li.menu-item
+                    a(href='#demos') demos
+                  li.menu-item
+                    a(href='#features') features
+                a.menu-action(href='javascript:void(0);')
+                  span                   
+    .cdx-layer
+    // header end
+  
+    // intro start
+    section.intro
+      .container
+        .row
+          .col-12
+            .intro-contain
+              div
+                h1(data-sal-delay="100" data-sal="slide-right" data-sal-duration="800") Yogwe Responsive Bootstrap 5 Basd HTML Template
+                p(data-sal-delay="100" data-sal="slide-left" data-sal-duration="800") Yogwe Is A Bootstrap Responisve Yoga Template. Yogwe Responisve Template Is The Most Developer Friendly &amp; Highly Customizable Responisve Yoga Template Based On Bootstrap 5. It Has 1 Home Page and 20+ Different Inner Pages  Which Are Managed By SCSS Only.
+                a.btn.btn-primary(href='#demos' data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+                  i.fa.fa-television
+                  | live demo
+    // intro end
+
+    // demo start
+    section#demos.space-py-100
+      .title
+        h2 yogwe Pages
+      .container
+        .row.cdx-row.justify-content-center
+          .col-lg-4.col-md-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .demo-grid
+              .img-wrap
+                img.img-fluid(src='../assets/images/landing/demo/1.jpg' alt='')
+                ul.hover-link
+                  li
+                    a(href='index.html')
+                      img.img-fluid(src='../assets/images/landing/demo/html.png' alt="html feathure")                 
+              .demo-detail
+                h3 home
+          .col-lg-4.col-md-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .demo-grid
+              .img-wrap
+                img.img-fluid(src='../assets/images/landing/demo/2.jpg' alt='')               
+                ul.hover-link
+                  li
+                    a(href='classes.html')
+                      img.img-fluid(src='../assets/images/landing/demo/html.png' alt="html feathure")
+              .demo-detail
+                h3 classes
+          .col-lg-4.col-md-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .demo-grid
+              .img-wrap
+                img.img-fluid(src='../assets/images/landing/demo/3.jpg' alt='')               
+                ul.hover-link
+                  li
+                    a(href='class-detail.html')
+                      img.img-fluid(src='../assets/images/landing/demo/html.png' alt="html feathure")                 
+              .demo-detail
+                h3 class detail
+          .col-lg-4.col-md-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .demo-grid
+              .img-wrap
+                img.img-fluid(src='../assets/images/landing/demo/4.jpg' alt='')               
+                ul.hover-link
+                  li
+                    a(href='class-schedule.html')
+                      img.img-fluid(src='../assets/images/landing/demo/html.png' alt="html feathure")
+              .demo-detail
+                h3 class schedule
+          .col-lg-4.col-md-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .demo-grid
+              .img-wrap
+                img.img-fluid(src='../assets/images/landing/demo/5.jpg' alt='')               
+                ul.hover-link
+                    li
+                      a(href='gallery.html')
+                        img.img-fluid(src='../assets/images/landing/demo/html.png' alt="html feathure")                    
+              .demo-detail
+                h3 galllery
+          .col-lg-4.col-md-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .demo-grid
+              .img-wrap
+                img.img-fluid(src='../assets/images/landing/demo/6.jpg' alt='')               
+                ul.hover-link
+                    li
+                      a(href='gellery-detail.html')
+                        img.img-fluid(src='../assets/images/landing/demo/html.png' alt="html feathure")                   
+              .demo-detail
+                h3 gallery detail
+          .col-lg-4.col-md-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .demo-grid
+              .img-wrap
+                img.img-fluid(src='../assets/images/landing/demo/7.jpg' alt='')               
+                ul.hover-link
+                    li
+                      a(href='about-us.html')
+                        img.img-fluid(src='../assets/images/landing/demo/html.png' alt="html feathure")                   
+              .demo-detail
+                h3 about us
+          .col-lg-4.col-md-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .demo-grid
+              .img-wrap
+                img.img-fluid(src='../assets/images/landing/demo/8.jpg' alt='')                
+                ul.hover-link
+                    li
+                      a(href='teacher-team.html')
+                        img.img-fluid(src='../assets/images/landing/demo/html.png' alt="html feathure")                   
+              .demo-detail
+                h3 team
+          .col-lg-4.col-md-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .demo-grid
+              .img-wrap
+                img.img-fluid(src='../assets/images/landing/demo/9.jpg' alt='')               
+                ul.hover-link
+                    li
+                      a(href='team-detail.html')
+                        img.img-fluid(src='../assets/images/landing/demo/html.png' alt="html feathure")                   
+              .demo-detail
+                h3 team detail
+          .col-lg-4.col-md-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .demo-grid
+              .img-wrap
+                img.img-fluid(src='../assets/images/landing/demo/10.jpg' alt='')                
+                ul.hover-link
+                    li
+                      a(href='pricing-plan.html')
+                        img.img-fluid(src='../assets/images/landing/demo/html.png' alt="html feathure")                   
+              .demo-detail
+                h3 pricing plan
+          .col-lg-4.col-md-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .demo-grid
+              .img-wrap
+                img.img-fluid(src='../assets/images/landing/demo/11.jpg' alt='')               
+                ul.hover-link
+                    li
+                      a(href='faq.html')
+                        img.img-fluid(src='../assets/images/landing/demo/html.png' alt="html feathure")                   
+              .demo-detail
+                h3 faq
+          .col-lg-4.col-md-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .demo-grid
+              .img-wrap
+                img.img-fluid(src='../assets/images/landing/demo/12.jpg' alt='')               
+                ul.hover-link
+                    li
+                      a(href='blog.html')
+                        img.img-fluid(src='../assets/images/landing/demo/html.png' alt="html feathure")                   
+              .demo-detail
+                h3 blog
+          .col-lg-4.col-md-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .demo-grid
+              .img-wrap
+                img.img-fluid(src='../assets/images/landing/demo/13.jpg' alt='')                
+                ul.hover-link
+                    li
+                      a(href='blog-detail.html')
+                        img.img-fluid(src='../assets/images/landing/demo/html.png' alt="html feathure")                   
+              .demo-detail
+                h3 blog detail
+          .col-lg-4.col-md-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .demo-grid
+              .img-wrap
+                img.img-fluid(src='../assets/images/landing/demo/14.jpg' alt='')               
+                ul.hover-link
+                    li
+                      a(href='contact.html')
+                        img.img-fluid(src='../assets/images/landing/demo/html.png' alt="html feathure")                   
+              .demo-detail
+                h3 contact
+          .col-lg-4.col-md-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .demo-grid
+              .img-wrap
+                img.img-fluid(src='../assets/images/landing/demo/15.jpg' alt='')               
+                ul.hover-link
+                    li
+                      a(href='coming-soon.html')
+                        img.img-fluid(src='../assets/images/landing/demo/html.png' alt="html feathure")                   
+              .demo-detail
+                h3 coming soon
+          .col-lg-4.col-md-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .demo-grid
+              .img-wrap
+                img.img-fluid(src='../assets/images/landing/demo/16.jpg' alt='')               
+                ul.hover-link
+                    li
+                      a(href='404.html')
+                        img.img-fluid(src='../assets/images/landing/demo/html.png' alt="html feathure")                   
+              .demo-detail
+                h3 404
+          .col-lg-4.col-md-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .demo-grid
+              .img-wrap
+                img.img-fluid(src='../assets/images/landing/demo/17.jpg' alt='')               
+                ul.hover-link
+                    li
+                      a(href='login.html')
+                        img.img-fluid(src='../assets/images/landing/demo/html.png' alt="html feathure")                   
+              .demo-detail
+                h3 login
+          .col-lg-4.col-md-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .demo-grid
+              .img-wrap
+                img.img-fluid(src='../assets/images/landing/demo/18.jpg' alt='')                
+                ul.hover-link
+                    li
+                      a(href='register.html')
+                        img.img-fluid(src='../assets/images/landing/demo/html.png' alt="html feathure")                   
+              .demo-detail
+                h3 register
+          .col-lg-4.col-md-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .demo-grid
+              .img-wrap
+                img.img-fluid(src='../assets/images/landing/demo/19.jpg' alt='')               
+                ul.hover-link
+                    li
+                      a(href='forgot-password.html')
+                        img.img-fluid(src='../assets/images/landing/demo/html.png' alt="html feathure")                    
+              .demo-detail
+                h3 forgot password
+          .col-lg-4.col-md-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .demo-grid
+              .img-wrap
+                img.img-fluid(src='../assets/images/landing/demo/20.jpg' alt='')               
+                ul.hover-link
+                    li
+                      a(href='new-password.html')
+                        img.img-fluid(src='../assets/images/landing/demo/html.png' alt="html feathure")                   
+              .demo-detail
+                h3 new password
+          .col-lg-4.col-md-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .demo-grid
+              .img-wrap
+                img.img-fluid(src='../assets/images/landing/demo/21.jpg' alt='')               
+                ul.hover-link
+                    li
+                      a(href='verify-email.html')
+                        img.img-fluid(src='../assets/images/landing/demo/html.png' alt="html feathure")                   
+              .demo-detail
+                h3 verify email
+          .col-lg-4.col-md-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .demo-grid
+              .img-wrap
+                img.img-fluid(src='../assets/images/landing/demo/22.jpg' alt='')               
+                ul.hover-link
+                    li
+                      a(href='verify-pin.html')
+                        img.img-fluid(src='../assets/images/landing/demo/html.png' alt="html feathure")                   
+              .demo-detail
+                h3 verify pin
+    // demo end
+  
+
+    // feathure start
+    section#features.feathure.space-pb-100
+      .title
+        h2 Yogwe Features
+      .container
+        .row.cdx-row.justify-content-center
+          .col-lg-3.col-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .feathure-grid
+              .icon-wrap
+                img.img-fluid(src='../assets/images/landing/feathure/1.png' alt='')
+              h5 html 5
+          .col-lg-3.col-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .feathure-grid
+              .icon-wrap
+                img.img-fluid(src='../assets/images/landing/feathure/2.png' alt='')
+              h5 CSS 3
+          .col-lg-3.col-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .feathure-grid
+              .icon-wrap
+                img.img-fluid(src='../assets/images/landing/feathure/3.png' alt='')
+              h5 SCSS
+          .col-lg-3.col-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .feathure-grid
+              .icon-wrap
+                img.img-fluid(src='../assets/images/landing/feathure/4.png' alt='')
+              h5 Bootstrap
+          .col-lg-3.col-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .feathure-grid
+              .icon-wrap
+                img.img-fluid(src='../assets/images/landing/feathure/5.png' alt='')
+              h5 Google Font
+          .col-lg-3.col-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .feathure-grid
+              .icon-wrap
+                img.img-fluid(src='../assets/images/landing/feathure/6.png' alt='')
+              h5 Dark Mode
+          .col-lg-3.col-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .feathure-grid
+              .icon-wrap
+                img.img-fluid(src='../assets/images/landing/feathure/7.png' alt='')
+              h5 Fully Responsive
+          .col-lg-3.col-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .feathure-grid
+              .icon-wrap
+                img.img-fluid(src='../assets/images/landing/feathure/8.png' alt='')
+              h5 Clean Code
+          .col-lg-3.col-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .feathure-grid
+              .icon-wrap
+                img.img-fluid(src='../assets/images/landing/feathure/9.png' alt='')
+              h5 Free Updates
+          .col-lg-3.col-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .feathure-grid
+              .icon-wrap
+                img.img-fluid(src='../assets/images/landing/feathure/10.png' alt='')
+              h5 Forms
+          .col-lg-3.col-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .feathure-grid
+              .icon-wrap
+                img.img-fluid(src='../assets/images/landing/feathure/11.png' alt='')
+              h5 Easy To Customize
+          .col-lg-3.col-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .feathure-grid
+              .icon-wrap
+                img.img-fluid(src='../assets/images/landing/feathure/12.png' alt='')
+              h5 Gulp         
+          .col-lg-3.col-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .feathure-grid
+              .icon-wrap
+                img.img-fluid(src='../assets/images/landing/feathure/13.png' alt='')
+              h5 jQuery
+          .col-lg-3.col-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .feathure-grid
+              .icon-wrap
+                img.img-fluid(src='../assets/images/landing/feathure/14.png' alt='')
+              h5 Well Documented
+          .col-lg-3.col-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .feathure-grid
+              .icon-wrap
+                img.img-fluid(src='../assets/images/landing/feathure/15.png' alt='')
+              h5 W3 Validated
+          .col-lg-3.col-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .feathure-grid
+              .icon-wrap
+                img.img-fluid(src='../assets/images/landing/feathure/16.png' alt='')
+              h5 High Performance
+          .col-lg-3.col-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .feathure-grid
+              .icon-wrap
+                img.img-fluid(src='../assets/images/landing/feathure/17.png' alt='')
+              h5 Browser Compatibility
+          .col-lg-3.col-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .feathure-grid
+              .icon-wrap
+                img.img-fluid(src='../assets/images/landing/feathure/18.png' alt='')
+              h5 Great Support
+          .col-lg-3.col-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .feathure-grid
+              .icon-wrap
+                img.img-fluid(src='../assets/images/landing/feathure/19.png' alt='')
+              h5 Password Show/Hide
+    // feathure end
+
+
+  
+    // footer start
+    footer.lan-footer.space-py-100
+      .container
+        .row
+          .col-12
+            .support-contain
+              .codex-brand(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+                a(href="#")
+                  img.img-fluid(src='../assets/images/logo/logo-light.png' alt='theeme-logo')
+              h2(data-sal-delay="100" data-sal="slide-right" data-sal-duration="800") Let's Buy Our Unique & Creative Design Responsive Yoga Html Template.
+              p(data-sal-delay="100" data-sal="slide-left" data-sal-duration="800") if you like Yogwe, Please consider leaving a review and tell us why you like it. if you have any queries about our product, please inform us through templatemonster support. to let us figure out and solve your problem.                          
+    // footer end
+
+
+    // Tap To Top Start
+    a.scroll-top(href='Javascript:void(0)')
+      i.fa.fa-angle-double-up
+    // Tap To Top End
+
+    // footer file start
+    include ../components/footerfile
+    // footer file end

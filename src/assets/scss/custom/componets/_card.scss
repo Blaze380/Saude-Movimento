@@ -1,0 +1,26 @@
+/*********************
+  05 CARD START
+**********************/
+.card{
+    background-color:$white;   
+    border-radius:8px;
+    border: 1px solid $theme-border;
+    margin-bottom: 1.6em;
+    box-shadow: 0 2px 5px rgba($theme-default,0.05);
+    transition: all 0.5s ease;   
+    overflow: hidden;
+    .card-header{
+      background-color: transparent;
+      padding: 25px;
+      padding-bottom: 0 !important;
+      border: none;
+      display: flex;
+      justify-content: space-between;
+      h4{                                          
+          text-transform: capitalize;         
+      }
+    }
+    .card-body{
+        padding:25px;
+    }   
+}

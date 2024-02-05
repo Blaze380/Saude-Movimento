@@ -1,0 +1,285 @@
+-var slickslider = true;
+-var imganimat = true;
+-var gallery = true;
+
+doctype html
+html(lang="en")
+  include ../components/headerfile
+  +headerfile('Home')
+  body
+
+    // loader start
+    +loader
+    // loader end
+
+    // header start       
+    include ../components/header
+    // header end
+
+
+    // home slider start
+    section.welcome-sec
+      .container-fluid
+        .row
+          .col-12
+            .slide-1
+              .slick-item
+                .container
+                  .row.align-items-center.cdx-row
+                    .col-md-6
+                      .intro-content
+                        h3 Welcome To Yogwe
+                        h1
+                          | Change Your Life By Yoga And Meditation
+                        p
+                          | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.                         
+                        a.btn(href='about-us.html')
+                          | About Us                         
+                    .col-md-6
+                      .img-wrap
+                        img.img-fluid(src='../assets/images/welcome/1.png' alt='')
+                        img.img-fluid.animat1(src='../assets/images/welcome/main.png' alt='')
+              .slick-item
+                .container
+                  .row.align-items-center.cdx-row
+                    .col-md-6
+                      .intro-content
+                        h3 Welcome To Yogwe
+                        h1
+                          | Change Your Life By Yoga And Meditation
+                        p
+                          | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.                         
+                        a.btn(href='about-us.html')
+                          | About Us                            
+                    .col-md-6
+                      .img-wrap
+                        img.img-fluid(src='../assets/images/welcome/2.png' alt='')
+                        img.img-fluid.animat1(src='../assets/images/welcome/main.png' alt='')
+              .slick-item
+                .container
+                  .row.align-items-center.cdx-row
+                    .col-md-6
+                      .intro-content
+                        h3 Welcome To Yogwe
+                        h1
+                          | Change Your Life By Yoga And Meditation
+                        p
+                          | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.                         
+                        a.btn(href='about-us.html')
+                          | About Us                            
+                    .col-md-6
+                      .img-wrap
+                        img.img-fluid(src='../assets/images/welcome/3.png' alt='')
+                        img.img-fluid.animat1(src='../assets/images/welcome/main.png' alt='')
+              .slick-item
+                .container
+                  .row.align-items-center.cdx-row
+                    .col-md-6
+                      .intro-content
+                        h3 Welcome To Yogwe
+                        h1
+                          | Change Your Life By Yoga And Meditation
+                        p
+                          | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.                         
+                        a.btn(href='about-us.html')
+                          | About Us                            
+                    .col-md-6
+                      .img-wrap
+                        img.img-fluid(src='../assets/images/welcome/4.png' alt='')
+                        img.img-fluid.animat1(src='../assets/images/welcome/main.png' alt='')
+      ul.animat-shap
+        li
+          img.img-fluid.shap1(src='../assets/images/shap/1.png' alt='')
+        li
+          img.img-fluid.shap2(src='../assets/images/shap/2.png' alt='')
+        li
+          img.img-fluid.shap3(src='../assets/images/shap/10.png' alt='')
+        li
+          img.img-fluid.shap4(src='../assets/images/shap/4.png' alt='')
+        li
+          img.img-fluid.shap5(src='../assets/images/shap/3.png' alt='')
+    // home slider end
+
+    // About start
+    +aboutus
+    // About End
+
+    // Features Start
+    section.features.space-pb-100
+      .container
+        +title('Features','Benifits Of Yoga')       
+        .row.cdx-row
+          .col-md-6.col-lg-4(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            +featuregrid('Addition of Energy','1.png')
+          .col-md-6.col-lg-4(data-sal-delay="200" data-sal="slide-up" data-sal-duration="800")
+            +featuregrid('Renewing of Mind','2.png')
+          .col-md-6.col-lg-4(data-sal-delay="300" data-sal="slide-up" data-sal-duration="800")
+            +featuregrid('Create cool mind','3.png')
+          .col-md-6.col-lg-4(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            +featuregrid('Quality Trainers','4.png')
+          .col-md-6.col-lg-4(data-sal-delay="200" data-sal="slide-up" data-sal-duration="800")
+            +featuregrid('Stretch Body','5.png')       
+          .col-md-6.col-lg-4(data-sal-delay="300" data-sal="slide-up" data-sal-duration="800")
+            +featuregrid('Improves Body Posture','6.png')
+    // Features End
+
+
+    // Counter Start
+    +countergrid
+    // Counter End
+
+    // Class Start
+    section.space-py-100
+      .container
+        +title('CLASSES','Our Best Classes')       
+        .row.cdx-row
+          .col-md-6.col-xl-4(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            +classgrid('$129','Yoga For Beginners','Ruth Edwards','1.jpg','1.jpg')
+          .col-md-6.col-xl-4(data-sal-delay="200" data-sal="slide-up" data-sal-duration="800")
+            +classgrid('$99','Balance Body & Mind','Omini Green','2.jpg','2.jpg')
+          .col-md-6.col-xl-4(data-sal-delay="300" data-sal="slide-up" data-sal-duration="800")
+            +classgrid('$119','Yoga Classes For Children','Raymond Gill','3.jpg','3.jpg')
+          .col-md-6.col-xl-4(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            +classgrid('$82','Increased Body Awareness','Sarah Albert','4.jpg','4.jpg')
+          .col-md-6.col-xl-4(data-sal-delay="200" data-sal="slide-up" data-sal-duration="800")
+            +classgrid('$126','Hatha Yoga','Zahra Sharif','5.jpg','5.jpg')
+          .col-md-6.col-xl-4(data-sal-delay="300" data-sal="slide-up" data-sal-duration="800")
+            +classgrid('$105','Pilates Yoga','Miranda Doe','6.jpg','6.jpg')
+    // Class End
+
+
+    // schedule Start
+    section.time-schedule(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+      .container
+        .row
+          +title('Schedule','Our Time Schedule')         
+          .col-12(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            +timesedual
+      ul.cdx-shap
+        li
+          img.img-fluid(src='../assets/images/shap/6.png' alt='')
+    // schedule Start
+
+
+    // pricing start
+    section.space-pt-100
+      +title('Pricing','Our Pricing Plan')
+      .container
+        .row.cdx-row
+          .col-md-6.col-lg-4(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            +pricinggrid('','Basic Plan','$69','active','active','active','','','')           
+          .col-md-6.col-lg-4(data-sal-delay="200" data-sal="slide-up" data-sal-duration="800")
+            +pricinggrid('active','Standard Plan','$109','active','active','active','active','','')
+          .col-md-6.col-lg-4(data-sal-delay="300" data-sal="slide-up" data-sal-duration="800")
+            +pricinggrid('','Premium Plan','$169','active','active','active','active','active','active')
+    // pricing end
+
+    // gallery start
+    section.gallery.space-py-100
+      +title('Gallery','Our Photo Gallery')     
+      +gallery
+    // gallery end
+
+
+    // Video Start
+    section.video-sec
+      .container
+        .row.align-items-center
+          .col-lg-12
+            .video-wrapper
+              div
+                h2(data-sal-delay="100" data-sal="slide-right" data-sal-duration="800") Ready for Health Life? Watch Demo Video 
+                p(data-sal-delay="100" data-sal="slide-left" data-sal-duration="800")
+                  | There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.
+                a.play-btn(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")(href='Javascript:void(0)' data-bs-toggle='modal' data-bs-target='#exampleModal')
+                  i.fa.fa-play
+      // Video Modal Start
+      #exampleModal.modal.fade.video-modal
+        .modal-dialog.modal-dialog-centered.modal-lg
+          .modal-content
+            .modal-body
+              button.btn-close(type='button' data-bs-dismiss='modal' aria-label='Close')
+              video(controls='')
+                source(src='../assets/images/video-sec/1.mp4' type='video/mp4')
+      // Video Modal End
+    // Video End
+
+
+    // Team Start
+    section.codex-team.space-py-100
+      +title('team','Meet With Experts')     
+      .container
+        .row.cdx-row
+          .col-lg-3.col-sm-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            +teamgrid('Zahra Sharif','1.jpg')
+          .col-lg-3.col-sm-6(data-sal-delay="200" data-sal="slide-up" data-sal-duration="800")
+            +teamgrid('Sarah Albert','2.jpg')           
+          .col-lg-3.col-sm-6(data-sal-delay="300" data-sal="slide-up" data-sal-duration="800")
+            +teamgrid('Raymond Gill','3.jpg')           
+          .col-lg-3.col-sm-6(data-sal-delay="400" data-sal="slide-up" data-sal-duration="800")
+            +teamgrid('Yoga Teacher','4.jpg')            
+      ul.cdx-shap
+        li
+          img.img-fluid(src='../assets/images/shap/8.png' alt='')
+    // Team End
+
+
+    // Training Start
+    section.training
+      .container
+        .row
+          .col-xl-7.col-lg-10.mx-auto
+            .training-detail.text-center
+              h1(data-sal-delay="100" data-sal="slide-right" data-sal-duration="800") Are You Looking For Yoga Training ? Join With Yogwe Now
+              p(data-sal-delay="100" data-sal="slide-left" data-sal-duration="800")
+                | There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.
+              a.btn.btn-primary(href='pricing-plan.html' data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+                | Get Started                
+    // Training End
+
+    // Testimonial Start
+    section.testimonial.space-pt-100
+      +title('Testimonials',"What Client Say's")     
+      .container
+        .row
+          .col-12(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .slide-2
+              div
+                +testimonialgrid('Ruth V Edwards','1.jpg')
+              div
+                +testimonialgrid('Zahra G Sharif','2.jpg')
+              div
+                +testimonialgrid('Raymond M Gill','1.jpg')             
+    // Testimonial End
+
+    // Blog Start
+    section.codex-blog.space-pb-100
+      .container
+        +title('Our Blog','new & blog')       
+        .row.cdx-row
+          .col-xl-4.col-md-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            +bloggrid('Zahra G Sharif','Aug 09, 2022','1.jpg')
+          .col-xl-4.col-md-6(data-sal-delay="200" data-sal="slide-up" data-sal-duration="800")
+            +bloggrid('Raymond M Gill','Aug 19, 2022','2.jpg')
+          .col-xl-4.col-md-6(data-sal-delay="300" data-sal="slide-up" data-sal-duration="800")
+            +bloggrid('Cosmo V Kito','Sept 15, 2022','3.jpg')         
+      ul.cdx-shap
+        li
+          img.img-fluid(src='../assets/images/shap/9.png' alt='')
+    // Blog end
+
+       
+    // footer start       
+    include ../components/footer
+    // footer end
+
+    // theme customizer start
+    +customizer
+    // theme customizer end
+
+    // Tap To Top Start
+    a.scroll-top(href='Javascript:void(0)')
+      i.fa.fa-angle-double-up
+    // Tap To Top End
+
+    include ../components/footerfile

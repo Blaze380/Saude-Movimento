@@ -1,0 +1,351 @@
+/*******************
+ DARK MODE START
+********************/
+body{   
+    &.darkmode{
+        background-color: $dark-body;
+        color: $dark-font;
+
+        p{
+            color: $dark-small-font;
+        }
+        a{
+            color: $dark-font;
+        }
+
+
+        .card{
+            background-color: $dark-card;
+            border: none;
+        }
+
+        .theme-customizer{
+            background-color: $dark-card;           
+            border: 1px solid $dark-border;
+        }
+
+
+        /*header */       
+        header{
+            background-color:transparent;
+            .codex-brand {
+                .light-logo{
+                    display: none;
+                }
+                .dark-logo{
+                    display: block;
+                }
+            }
+            &.sticky{
+                background-color: $dark-card;
+            }
+
+
+            .menu-action {
+                span{
+                    background-color: $white;
+                    &::after,&::before{
+                        background-color: $white;
+                    }
+                    
+                }
+                &.toggle-active {
+                    span{
+                        background-color: transparent;
+                    }
+                }
+            }
+        }
+
+
+
+        /* feathures */
+        .feature-grid{
+            background-color: $dark-card;
+            border: none;
+        }
+
+        /* class */
+        .class-grid{
+            background-color: $dark-card;
+            border: none;
+            .detail-wrap {
+                .auth-info{
+                    color: $dark-small-font;
+                }
+                .class-footer{
+                    border-color: $dark-border;
+                }
+            }
+        }
+        .time-schedule {
+            table{
+                background-color: $dark-body;
+                tr {
+                    td{
+                        background-color: $dark-card;
+                        border: none;
+                        color: $white;
+                        a{
+                            color: $dark-small-font;
+                        }
+                        &:first-child{
+                            background-color: $theme-default;
+                        }
+                    }
+                }
+            }
+            
+        }
+
+        /*pricing plan*/
+        .pricing-grid {           
+            .price-header{
+                background-color: $dark-card;
+            }
+            .price-body{
+                border-color: $dark-border;
+                
+            }
+            .pricing-list {
+                ul {
+                    li{
+                        color: $dark-small-font;
+                    }
+                }
+            }
+            &.active{               
+                .price-header{
+                    background-color: $theme-default;
+                }
+                .price-body{
+                    border-color: $theme-default;
+                }
+            }
+        }
+
+        /*team*/
+        .team-grid {
+            border: none;
+            .team-detail{
+                background-color: $dark-card;
+                .team-bio {
+                    span{
+                        color: $dark-small-font;
+                    }
+                }
+            }
+        }
+
+        /*testimonial*/
+        .testimonial {
+            .testimonial-grid{
+                background-color: $dark-card;
+                border: none;
+            }
+        }
+
+        /*blog*/
+        .blog-grid{
+            background-color: $dark-card;
+            border: none;
+            .auth-detail{
+                border-color: $dark-border;
+            }
+        }
+
+        /*inner pages*/
+        .blog-card {
+            .category-list {
+                li {
+                    a{
+                        border-color: $dark-border;
+                    }
+                }
+            }
+        }
+        .class-details {
+            .class-list {
+                li{
+                    color: $dark-small-font;
+                }
+            }
+        }
+        .class-details {
+            table{
+                border-color: $dark-border;
+                color: $dark-font;
+            }
+        }
+        .gallery-sidebar {
+            .blog-card{
+                >ul{
+                    >li{
+                        +li{
+                            border-color: $dark-border;
+                        }
+                    }
+                }
+            }
+        }
+        .team-info {
+            .team-detail {
+                .contact-list {
+                    border-color: $dark-border;
+                    li{
+                        color: $dark-small-font;
+                        a{
+                            color: $dark-small-font;
+                        }
+                    }
+                }
+            }
+        }
+        .cdx-faq {
+            .accordion-button{
+                background-color: $dark-card;
+                color: $dark-font;
+            }
+            .accordion-item{
+                border: none;
+                background-color: $dark-card;
+                
+            }
+            .accordion-body{
+                color: $dark-small-font;
+            }
+            .accordion-button{
+                &:not(.collapsed){
+                    background-color: $dark-card;
+                    border-color: $dark-border;
+                    color: $theme-default;
+                }
+            }
+        }
+        .form-control{
+            background-color: $dark-card;
+            border-color: $dark-border;
+            color: $dark-small-font;
+            &:focus{
+                border-color: $theme-default;
+            }
+        }
+        .input-group-text{
+            border-color: $dark-border;
+        }
+        .custom-chek {
+            .form-check-input{
+                background-color: $dark-body;
+                border-color: $dark-border;
+            }
+        }
+        .codex-authbox{
+            background-color: $dark-card;
+            .auth-header {
+                .codex-brand {
+                    .dark-logo{
+                        display: inline-block;
+                    }
+                    .light-logo{
+                        display: none;
+                    }
+                }
+                .auth-header {
+                    h6{
+                        color: $dark-small-font;
+                    }
+                }
+            }
+            .auth-footer {
+                .auth-with{
+                    color: $dark-small-font;
+                }
+                .login-list {
+                    li {
+                        .bg-google{
+                            border: 1px solid $dark-border;
+                            color: $dark-small-font;
+                        }
+                    }
+                }
+            }
+        }
+        .policy-group {
+            .terms-list {
+                li{
+                    color:$dark-small-font;
+                }
+            }
+        }
+        .blogsingle-detail {
+            .blockqoute {
+                h6{
+                    &::before{
+                        background-color: $dark-border;
+                    }
+                }
+            }
+            .blog-comments {
+                
+                .comments-list {
+                    li {
+                        .media {
+                            .blog-actionlist {
+                                li{
+                                    color: $dark-small-font;
+                                }
+                            }
+                            .media-body {
+                                span{
+                                    color: $dark-small-font;
+                                }
+                            }
+                        }   
+                    }
+                    >li{
+                        +li{
+                            border-color: $dark-border;
+                        }
+                    }
+                }
+            }
+        }
+        .blog-card {
+            .media {
+                .media-body {
+                    span{
+                        color: $dark-small-font;
+                    }
+                }
+            }
+            .tag-list {
+                a{
+                    border-color: $dark-border;
+                }
+            }
+        }
+        .contact-grid{
+            border: none;
+            background-color: $dark-card;
+        }
+        .getin-touch {
+            .contact-form{
+                border: none;
+                background-color: $dark-card;
+            }
+        }
+        .codex-loader{
+            background-color: $dark-card;
+        }
+        
+        /*landing*/
+        .demo-grid {
+            .img-wrap{
+                border: none;
+            }
+        }
+        .feathure-grid{
+            border-color: $dark-border;
+        }
+    }
+}

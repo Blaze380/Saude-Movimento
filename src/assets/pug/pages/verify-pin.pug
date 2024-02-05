@@ -1,0 +1,82 @@
+doctype html
+html(lang="en")
+  include ../components/headerfile
+  +headerfile('Verify Pin')
+  body
+
+    // loader start
+    +loader
+    // loader end
+
+    // header start       
+    include ../components/header
+    // header end
+
+    // Breadcrumb Start
+    +breadcrumb('login')
+    // Breadcrumb end
+
+    // Login Start
+    section.space-py-100
+      .container
+        .row
+          .col-12
+            .codex-authbox
+              .auth-header
+                .auth-icon               
+                  i.fa.fa-envelope-open
+                h3 verify your email
+                p Plase Enter The Verification Code We Sent 
+                  br
+                  |  To formeto@example.Com
+              form(onsubmit='onSubmit(event)' action="#")
+                .group-form
+                  .group-small.auth-pin
+                    input.form-control.code-input(type="text" required="")
+                    input.form-control.code-input(type="text" required="")
+                    input.form-control.code-input(type="text" required="")
+                    input.form-control.code-input(type="text" required="")
+                    input.form-control.code-input(type="text" required="")
+                    input.form-control.code-input(type="text" required="")
+                .group-form                   
+                  button.btn.btn-primary.mt-0(type='submit') Confirm
+              .auth-footer.text-center
+                p
+                  | Dont Receive The Email ? 
+                  a.text-primary(href='#')  Resend Email
+    // Login End
+
+       
+    // footer start       
+    include ../components/footer
+    // footer end
+
+    // theme customizer start
+    +customizer
+    // theme customizer end
+
+    // Tap To Top Start
+    a.scroll-top(href='Javascript:void(0)')
+      i.fa.fa-angle-double-up
+    // Tap To Top End
+
+    include ../components/footerfile
+
+    script.
+      const inputElements = [...document.querySelectorAll('input.code-input')]
+          inputElements.forEach((ele,index)=>{
+            ele.addEventListener('keydown',(e)=>{              
+              if(e.keyCode === 8 && e.target.value==='') inputElements[Math.max(0,index-1)].focus()
+            })
+            ele.addEventListener('input',(e)=>{             
+              const [first,...rest] = e.target.value
+              e.target.value = first ?? ''
+              const lastInputBox = index===inputElements.length-1
+              const insertedContent = first!==undefined
+              if(insertedContent && !lastInputBox) {               
+                inputElements[index+1].focus()
+                inputElements[index+1].value = rest.join('')
+                inputElements[index+1].dispatchEvent(new Event('input'))
+              }
+            })
+          })

@@ -1,0 +1,49 @@
+doctype html
+html(lang="en")
+  include ../components/headerfile
+  +headerfile('404')
+  body
+
+    // loader start
+    +loader
+    // loader end
+
+    // header start       
+    include ../components/header
+    // header end
+
+    // Breadcrumb Start
+    +breadcrumb('404')
+    // Breadcrumb end
+
+    // Error Start
+    section.codex-error.space-py-100
+      .container
+        .row
+          .col-12
+            .error-detail
+              h1(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+                | o
+                span op
+                | s!
+              h2(data-sal-delay="200" data-sal="slide-up" data-sal-duration="800") This Page Not Found!
+              p(data-sal-delay="300" data-sal="slide-up" data-sal-duration="800") Sorry, The Page You're Looking For Dose Not Exit. If You Think Something Is Broken, Report A Problem. Go Back To The Homepage.
+              a.btn.btn-primary(href='index.html' data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+                i.ti-home
+                |  Go Back Home
+    // Error Start
+       
+    // footer start       
+    include ../components/footer
+    // footer end
+
+    // theme customizer start
+    +customizer
+    // theme customizer end
+
+    // Tap To Top Start
+    a.scroll-top(href='Javascript:void(0)')
+      i.fa.fa-angle-double-up
+    // Tap To Top End
+
+    include ../components/footerfile

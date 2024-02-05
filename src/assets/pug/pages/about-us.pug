@@ -1,0 +1,74 @@
+-var slickslider = true ;
+doctype html
+html(lang="en")
+  include ../components/headerfile
+  +headerfile('About us')
+  body
+
+    // loader start
+    +loader
+    // loader end
+
+    // header start       
+    include ../components/header
+    // header end
+
+    // Breadcrumb Start
+    +breadcrumb('about us')
+    // Breadcrumb end
+
+    // About start
+    +aboutus
+    // About End
+
+    // Counter Start
+    +countergrid
+    // Counter End
+
+    // Testimonial Start
+    section.testimonial.space-pt-100
+      +title('Testimonials',"What Client Say's")     
+      .container
+        .row
+          .col-12(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            .slide-2
+              div
+                +testimonialgrid('Ruth V Edwards','1.jpg')
+              div
+                +testimonialgrid('Zahra G Sharif','2.jpg')
+              div
+                +testimonialgrid('Raymond M Gill','1.jpg')             
+    // Testimonial End
+
+    // Team Start
+    section.codex-team.space-pb-100
+      +title('team','Meet With Experts')     
+      .container
+        .row.cdx-row
+          .col-lg-3.col-sm-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            +teamgrid('Zahra Sharif','1.jpg')
+          .col-lg-3.col-sm-6(data-sal-delay="200" data-sal="slide-up" data-sal-duration="800")
+            +teamgrid('Sarah Albert','2.jpg')           
+          .col-lg-3.col-sm-6(data-sal-delay="300" data-sal="slide-up" data-sal-duration="800")
+            +teamgrid('Raymond Gill','3.jpg')           
+          .col-lg-3.col-sm-6(data-sal-delay="400" data-sal="slide-up" data-sal-duration="800")
+            +teamgrid('Yoga Teacher','4.jpg')            
+      ul.cdx-shap
+        li
+          img.img-fluid(src='../assets/images/shap/8.png' alt='')
+    // Team End
+       
+    // footer start       
+    include ../components/footer
+    // footer end
+
+    // theme customizer start
+    +customizer
+    // theme customizer end
+
+    // Tap To Top Start
+    a.scroll-top(href='Javascript:void(0)')
+      i.fa.fa-angle-double-up
+    // Tap To Top End
+
+    include ../components/footerfile

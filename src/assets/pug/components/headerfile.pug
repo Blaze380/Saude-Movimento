@@ -1,0 +1,46 @@
+mixin headerfile(pagename)
+
+  head
+    meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+    meta(name='keywords' content='')
+    meta(name='description' content='Yogwe –  Responsive Yoga HTML Template')
+    meta(name='author' content='codextheme')
+        
+    title 
+        | Yogwe | 
+        = pagename
+    
+    link(rel='preconnect' href='https://fonts.googleapis.com')
+    link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+    link(href='https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap' rel='stylesheet')
+    link(href='https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap' rel='stylesheet')
+    
+    // Favicon Icon
+    link(rel='icon' type='image/x-icon' href='../assets/images/logo/favicon.png')
+    
+    // Fontawesome Css
+    link(rel='stylesheet' href='../assets/css/vendor/font-awesome.css')
+    link(rel='stylesheet' href='../assets/css/vendor/themify-icons.css')
+    
+    // Animat Css
+    link(rel='stylesheet' href='../assets/css/vendor/animate.css')
+    
+    // Fancyboxt Css
+    link(rel='stylesheet' href='../assets/css/vendor/fancybox.css')
+    
+    // Slick slider Css
+    link(rel='stylesheet' href='../assets/css/vendor/slick.css')
+    link(rel='stylesheet' href='../assets/css/vendor/slick-theme.css')
+
+    // Sal Css
+    link(rel='stylesheet' href='../assets/css/vendor/sal.css')
+    
+    // Bootstrap Css
+    link(rel='stylesheet' href='../assets/css/vendor/bootstrap.css')
+    
+    // Custom Css
+    link(rel='stylesheet' href='../assets/css/style.css')
+
+
+  include ../mixin/mixin 

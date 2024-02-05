@@ -1,0 +1,57 @@
+doctype html
+html(lang="en")
+  include ../components/headerfile
+  +headerfile('Teacher Team')
+  body
+
+    // loader start
+    +loader
+    // loader end
+
+    // header start       
+    include ../components/header
+    // header end
+
+    // Breadcrumb Start
+    +breadcrumb('Our Team')
+    // Breadcrumb end
+
+    // Team Start
+    section.codex-team.space-py-100
+      .container
+        .row.cdx-row
+          .col-lg-3.col-sm-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            +teamgrid('Zahra Sharif','1.jpg')
+          .col-lg-3.col-sm-6(data-sal-delay="200" data-sal="slide-up" data-sal-duration="800")
+            +teamgrid('Sarah Albert','2.jpg')           
+          .col-lg-3.col-sm-6(data-sal-delay="300" data-sal="slide-up" data-sal-duration="800")
+            +teamgrid('Raymond Gill','3.jpg')           
+          .col-lg-3.col-sm-6(data-sal-delay="400" data-sal="slide-up" data-sal-duration="800")
+            +teamgrid('Yoga Teacher','4.jpg')
+          .col-lg-3.col-sm-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            +teamgrid('Ruth Edwards','5.jpg')
+          .col-lg-3.col-sm-6(data-sal-delay="200" data-sal="slide-up" data-sal-duration="800")
+            +teamgrid('Alena Jopsep','6.jpg')           
+          .col-lg-3.col-sm-6(data-sal-delay="300" data-sal="slide-up" data-sal-duration="800")
+            +teamgrid('Cosmo Kito','7.jpg')           
+          .col-lg-3.col-sm-6(data-sal-delay="400" data-sal="slide-up" data-sal-duration="800")
+            +teamgrid('Omini Green','8.jpg')            
+      ul.cdx-shap
+        li
+          img.img-fluid(src='../assets/images/shap/8.png' alt='')
+    // Team End
+       
+    // footer start       
+    include ../components/footer
+    // footer end
+
+    // theme customizer start
+    +customizer
+    // theme customizer end
+
+    // Tap To Top Start
+    a.scroll-top(href='Javascript:void(0)')
+      i.fa.fa-angle-double-up
+    // Tap To Top End
+
+    include ../components/footerfile

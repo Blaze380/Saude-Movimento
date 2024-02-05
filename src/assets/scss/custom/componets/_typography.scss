@@ -1,0 +1,103 @@
+/*** 01 TYPOGRAPHY ***/
+/*** 02 COMMON ***/
+/*** 03 BUTTON ***/
+/*** 04 FORMS ***/
+/*** 05 CARD ***/
+/*** 06 HEADER ***/
+/*** 07 HEROSECTION ***/
+/*** 08 FEATURES ***/
+/*** 09 ABOUT US ***/
+/*** 10 COUNTER UP ***/
+/*** 11 YOGA CLASS ***/
+/*** 12 PRICING TABLE ***/
+/*** 13 GALLERY ***/
+/*** 14 VIDEOSECTION ***/
+/*** 15 TEAM ***/
+/*** 16 TRAINING ***/
+/*** 17 TESTIMONIAL ***/
+/*** 18 FOOTER ***/
+/*** 19 BREADCRUMB ***/
+/*** 20 LOADER ***/
+/*** 21 TAP TOP TOP ***/
+/*** 22 BLOG PAGES ***/
+/*** 23 GET IN TOUCH ***/
+/*** 24 FAQ  ***/
+/*** 25 AUTHENTICATION ***/
+/*** 26 PRIVECY POLICY ***/
+/*** 27 COMING SOON ***/
+/*** 28 404 ERROR ***/
+/*** 29 GALLERY PAGE ***/
+/*** 30 TEAM PAGE ***/
+/*** 31 CLASS PAGE ***/
+
+/*******************
+ 01 TYPOGRAPHY START
+********************/
+body {
+	font-family: $font-roboto;
+	font-style: normal;
+	font-size: 16px;
+	font-weight: 400;
+	color:$black;
+	scroll-behavior: smooth;	
+	background-color: $white;
+}
+a {
+	color: $black;
+	outline: none;
+	transition: all 0.3s ease-in-out;
+	text-decoration: none;
+	&:focus,&:active {
+		outline: none;	
+		transition: all 0.3s ease-in-out;
+		text-decoration: none;
+	}
+	&:hover {
+		outline: none;
+		transition: all 0.3s ease-in-out;
+		text-decoration: none;
+		color: $theme-default;
+	}
+}
+p{
+	color: $font-light;
+	line-height: 1.8;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin-bottom:0;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: $font-jost;
+}
+h1 {	
+	font-weight: 600;
+	font-size: 40px;
+}
+h2 {
+	font-weight: 600;
+	font-size: 35px;
+}
+h3 {	
+	font-weight: 600;
+	font-size: 28px;
+}
+h4 {
+	font-weight: 600;	
+	font-size: 22px;
+}
+h5 {
+	font-weight: 600;
+	font-size: 18px;
+}
+h6 {
+	font-weight: 600;
+	font-size: 16px;
+}

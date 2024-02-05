@@ -1,0 +1,53 @@
+doctype html
+html(lang="en")
+  include ../components/headerfile
+  +headerfile('Blog')
+  body
+
+    // loader start
+    +loader
+    // loader end
+
+    // header start       
+    include ../components/header
+    // header end
+
+    // Breadcrumb Start
+    +breadcrumb('Latest Blog')
+    // Breadcrumb end
+
+    // Blog Start
+    section.codex-blog.space-py-100
+      .container
+        .row.cdx-row
+          .col-xl-4.col-md-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            +bloggrid('Zahra G Sharif','Aug 09, 2022','1.jpg')
+          .col-xl-4.col-md-6(data-sal-delay="200" data-sal="slide-up" data-sal-duration="800")
+            +bloggrid('Raymond M Gill','Aug 19, 2022','2.jpg')
+          .col-xl-4.col-md-6(data-sal-delay="300" data-sal="slide-up" data-sal-duration="800")
+            +bloggrid('Cosmo V Kito','Sept 15, 2022','3.jpg')
+          .col-xl-4.col-md-6(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            +bloggrid('Alena P Jopsep','Octo 05, 2022','4.jpg')
+          .col-xl-4.col-md-6(data-sal-delay="200" data-sal="slide-up" data-sal-duration="800")
+            +bloggrid('Ruth V Edwards','Octo 22, 2022','5.jpg')
+          .col-xl-4.col-md-6(data-sal-delay="300" data-sal="slide-up" data-sal-duration="800")
+            +bloggrid('Omini S Green','Nov 02, 2022','6.jpg')         
+      ul.cdx-shap
+        li
+          img.img-fluid(src='../assets/images/shap/9.png' alt='')
+    // Blog end
+       
+    // footer start       
+    include ../components/footer
+    // footer end
+
+    // theme customizer start
+    +customizer
+    // theme customizer end
+
+    // Tap To Top Start
+    a.scroll-top(href='Javascript:void(0)')
+      i.fa.fa-angle-double-up
+    // Tap To Top End
+
+    include ../components/footerfile

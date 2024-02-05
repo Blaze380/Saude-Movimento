@@ -1,0 +1,50 @@
+doctype html
+html(lang="en")
+  include ../components/headerfile
+  +headerfile('Classes')
+  body
+
+    // loader start
+    +loader
+    // loader end
+
+    // header start       
+    include ../components/header
+    // header end
+
+    // Breadcrumb Start
+    +breadcrumb('Classes')
+    // Breadcrumb end
+
+    // Class Start
+    section.space-py-100
+      .container
+        .row.cdx-row
+          .col-md-6.col-xl-4(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            +classgrid('$129','Yoga For Beginners','Ruth Edwards','1.jpg','1.jpg')
+          .col-md-6.col-xl-4(data-sal-delay="200" data-sal="slide-up" data-sal-duration="800")
+            +classgrid('$99','Balance Body & Mind','Omini Green','2.jpg','2.jpg')
+          .col-md-6.col-xl-4(data-sal-delay="300" data-sal="slide-up" data-sal-duration="800")
+            +classgrid('$119','Yoga Classes For Children','Raymond Gill','3.jpg','3.jpg')
+          .col-md-6.col-xl-4(data-sal-delay="100" data-sal="slide-up" data-sal-duration="800")
+            +classgrid('$82','Increased Body Awareness','Sarah Albert','4.jpg','4.jpg')
+          .col-md-6.col-xl-4(data-sal-delay="200" data-sal="slide-up" data-sal-duration="800")
+            +classgrid('$126','Hatha Yoga','Zahra Sharif','5.jpg','5.jpg')
+          .col-md-6.col-xl-4(data-sal-delay="300" data-sal="slide-up" data-sal-duration="800")
+            +classgrid('$105','Pilates Yoga','Miranda Doe','6.jpg','6.jpg')
+    // Class End
+       
+    // footer start       
+    include ../components/footer
+    // footer end
+
+    // theme customizer start
+    +customizer
+    // theme customizer end
+
+    // Tap To Top Start
+    a.scroll-top(href='Javascript:void(0)')
+      i.fa.fa-angle-double-up
+    // Tap To Top End
+
+    include ../components/footerfile
