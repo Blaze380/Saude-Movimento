@@ -1783,3 +1783,10 @@ p.form_text {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+.cart {
+    text-align: center;
+}
+.cart-products-container{
+    display: flex;
+}
