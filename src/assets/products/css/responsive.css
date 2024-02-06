@@ -1,0 +1,3057 @@
+/* Normal desktop :1850. */
+@media (min-width: 1800px) and (max-width: 1860px) {
+
+    .carvally_nav_manu:before {
+        width: 495px;
+    }
+
+
+}
+
+/* Normal desktop :1799. */
+@media (min-width: 1501px) and (max-width: 1799px) {
+
+.about-single-counter-box {
+    width: 360px;
+}
+.car-thumb {
+    right: -10px;
+}
+.car-road {
+    width: 212px;
+    right: -50px;
+}
+.about-thumb img {
+    width: 100%;
+}
+.about-counter-number h2 {
+    font-size: 86px;
+}
+.carvally_nav_manu:before {
+    display: none;
+}
+.about-section .col-lg-6.col-md-6.pr-0.pl-4 {
+    padding: 0 100px 0 0;
+}
+
+.shape-thumb-1 {
+    top: -50px;
+}
+
+.about-thumb {
+    margin-right: 30px;
+}
+
+.why-choose-us-section {
+    padding: 10px 80px 100px 0px;
+}
+
+.why-choose-us-thumb {
+    left: -225px;
+}
+
+.choose-us-shape2 {
+    right: -40px;
+    bottom: -75px;
+}
+
+.row.counter-bg {
+    padding: 75px 70px 45px 30px;
+}
+
+.counter-section {
+    padding: 0 0 0 120px;
+}
+
+}
+
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+.carvally_menu > ul > li > a {
+    margin: 30px 6px ;
+    font-size: 15px ;
+}
+a.logo_img img {
+    width: 170px;
+}
+.header-button a {
+    padding: 10px 30px;
+    font-size: 14px;
+}
+.header-button2 a i {
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    line-height: 41px;
+}
+.slider-button-title h6 {
+    font-size: 18px;
+}
+.slider-button-title p {
+    font-size: 15px;
+    font-weight: 400;
+}
+.carvally_nav_manu:before {
+    display: none;
+}
+.about-thumb img {
+    width: 100%;
+}
+.about-section .col-lg-6.col-md-6.pr-0.pl-4 {
+    padding: 0 50px 0 0;
+}
+.style-two.carvally_nav_manu .carvally-button a {
+    padding: 12px 44px !important;
+    font-size: 14px !important;
+}
+.carvally-button:after {
+    top: 25px;
+    right: 21px;
+}
+.carvally-button:before {
+    top: 25px;
+    left: 20px;
+}
+iframe {
+    width: 100%;
+}
+.about-counter-number h2 {
+    font-size: 70px;
+}
+.about-counter-title h4 {
+    font-size: 22px;
+    line-height: 28px;
+}
+.about-single-counter-box {
+    width: 295px;
+    padding: 31px 25px 44px;
+}
+.car-thumb {
+    right: -89px;
+}
+.car-road {
+    width: 186px;
+    right: -37px;
+}
+.about-thumb img {
+    width: 100%;
+}
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+.carvally_nav_manu:before {
+    display: none;
+}
+a.logo_img img {
+    width: 90%;
+}
+a.main_sticky img {
+    width: 100% ;
+}
+.carvally_menu > ul > li > a {
+    font-size: 15px;
+    margin: 29px 8px;
+}
+.header-button2 a i {
+    display: none;
+}
+.slider-button-title h6 {
+    font-size: 17px;
+    font-weight: 500;
+}
+.slider-button-title p {
+    font-size: 15px;
+    font-weight: 400;
+}
+.style-two.carvally_nav_manu .carvally-button a {
+    padding: 12px 35px;
+    font-size: 14px;
+}
+.style-two nav.carvally_menu {
+    text-align: left;
+}
+.carvally-button:after {
+    top: 25px;
+    right: 15px;
+    width: 12px;
+}
+.carvally-button:before {
+    top: 25px;
+    left: 14px;
+    width: 12px;
+}
+.search-box-btn {
+    padding-left: 11px;
+}
+.search-box-btn i {
+    font-size: 16px;
+}
+.search-box-btn.search-box-outer span i {
+    font-size: 18px;
+}
+/*slider area*/
+.slider-area {
+    height: 750px;
+}
+.slider-content h1 {
+    font-size: 50px;
+    line-height: 1;
+}
+.hero-title h1 {
+    font-size: 60px;
+    line-height: 75px;
+}
+
+
+/*feature section*/
+.feature-title h4 {
+    font-size: 18px;
+}
+img.feature-image-2 {
+    left: 0;
+
+}
+
+
+/*about section*/
+.about-thumb img {
+    width: 100%;
+}
+.about-section .col-lg-6.col-md-6.pr-0.pl-4 {
+    padding: 0 0 0 0;
+}
+.about-title h5 {
+    font-size: 20px;
+}
+.shape-thumb-1 {
+    display: none;
+}
+/*style two*/
+.conatact-single-box {
+    padding: 1px 30px 10px;
+}
+.about-counter-number h2 {
+    font-size: 70px;
+}
+.about-counter-title h4 {
+    font-size: 22px;
+    line-height: 28px;
+}
+.about-single-counter-box {
+    width: 295px;
+    padding: 31px 25px 44px;
+}
+.amazing-car-rotate {
+    padding-top: 42px;
+}
+.car-thumb {
+    right: -27px;
+}
+.car-road {
+    right: 140px;
+}
+.style-two.upper .about-thumb {
+    left: 0;
+}
+.style-two.upper .about-single-counter-box {
+    left: 0;
+}
+.style-two.upper .car-thumb {
+    right: 0;
+}
+.style-two.upper .car-road {
+    right: 165px;
+}
+.about-seo-title h4 {
+    font-size: 19px;
+}
+/*section title*/
+.carvally-section-title h1 {
+    font-size: 34px;
+    line-height: 40px;
+}
+.carvally-section-title h5 {
+    font-size: 16px;
+}
+.carvally-section-title p {
+    font-size: 15px;
+}
+/* End section title*/ 
+
+/*service section*/
+.carvally-single-service-box {
+    padding: 30px 0px 25px 35px;
+    display: block;
+}
+.carvally-service-thumb2 {
+    margin-top: 30px;
+}
+.service-title h2 {
+    font-size: 30px;
+}
+.service-desc p {
+    font-size: 15px;
+}
+.owl-nav {
+    display: none;
+}
+
+/*pricing section*/
+.tabs li a {
+    font-size: 17px;
+    padding: 29px 65px;
+}
+span.currency {
+    font-size: 25px;
+}
+span.tk {
+    font-size: 45px;
+}
+span.month {
+    font-size: 25px;
+}
+.pricing-body {
+    padding: 45px 22px 37px 22px;
+}
+.pricing-feature-list ul li {
+    font-size: 15px;
+}
+.pricing-button a {
+    font-size: 17px;
+    padding: 15px 50px;
+}
+
+/*testimonial*section*/
+.testimonial-area.style-two {
+    padding: 220px 0 10px;
+}
+.testimonial-title h4 {
+    font-size: 20px;
+}
+.testi-title h4 {
+    font-size: 20px;
+}
+.testimonial-desc p {
+    font-size: 15px;
+}
+.testimonial-area.style-two .testimonial-desc p {
+    font-size: 13px;
+}
+.testi-thumb img {
+    width: 88%;
+}
+.testi-thumb-items {
+    padding-right: 8px;
+}
+
+/*video section*/
+.video-title h1 {
+    font-size: 40px;
+}
+
+/*why choose us*/
+.why-choose-us-section {
+    padding: 10px 74px 100px 0px;
+}
+.row.choose-us-bg {
+    padding: 100px 0px 100px 20px;
+}
+.why-choose-us-thumb {
+    left: 0;
+}
+.why-choose-us-thumb img {
+    width: 100%;
+}
+.choose-us-shape2 {
+    right: -42px;
+    bottom: -83px;
+}
+
+/*ingine section*/
+.engine-section {
+    padding: 80px 0 55px;
+}
+.engine-section .tabs li a {
+    padding: 20px 35px;
+    font-size: 15px;
+    margin-right: 15px;
+}
+.carvally-single-engine-items {
+    padding: 60px 40px 70px;
+
+}
+.engine-title h3 {
+    font-size: 30px;
+    line-height: 38px;
+}
+.carvally-engine-thumb img {
+    width: 100%;
+}
+
+/*technicial section*/
+.technician-single-box {
+    width: fit-content;
+}
+.technician-title h4 {
+    font-size: 19px;
+}
+h4.social-info-title {
+    font-size: 18px;
+}
+
+/*counter section*/
+.counter-section {
+    padding: 0 0 0 0px;
+}
+.row.counter-bg {
+    padding: 75px 0 45px 30px;
+}
+.counter-icon-thumb img {
+    width: 90%;
+}
+.counter-title h1 {
+    font-size: 35px;
+}
+.counter-title h4 {
+    font-size: 16px;
+    line-height: 18px;
+}
+.counter-single-box:before {
+    display: none;
+}
+
+
+/*call do action area*/
+
+.call-do-title h2 {
+    font-size: 40px;
+}
+/*comparision area*/
+.comparision-area .wrapper {
+    height: 450px;
+    width: 500px;
+}
+
+/*contact section*/
+.single-contact-box {
+    padding: 25px 0px 8px 20px;
+}
+.contact-icon {
+    padding: 0 0 10px;
+    float: inherit;
+}
+
+/*product section*/
+.products-section {
+    padding: 65px 0 55px;
+}
+.product-title h2 {
+    font-size: 20px;
+}
+
+/*brand section*/
+.brand-section {
+    padding: 80px 0 80px;
+}
+
+/*blog section*/
+.style-three .carvally-blog-content {
+    padding: 29px 30px 29px 30px;
+}
+.carvally-blog-thumb {
+    margin-right: 35px;
+}
+.carvally-blog-thumb img {
+    width: 100%;
+}
+.blog-title h2 a {
+    font-size: 20px;
+}
+.blog-button a {
+    font-size: 16px;
+}
+.blog-button a i {
+    font-size: 18px;
+}
+/*subscribe section*/
+.subscribe-title h1 {
+    font-size: 37px;
+    padding: 0;
+}
+/*footer section*/
+
+table.widget-table tr td {
+    padding-right: 40px;
+}
+
+/*inner page product*/
+.widget-check-box {
+    padding: 40px 20px 18px;
+}
+.categories-title h4 {
+    font-size: 20px;
+}
+.widget-check {
+    font-size: 14px;
+}
+.product-categories-box {
+    padding: 30px 20px 4px;
+}
+.widget-check .checkmark:after {
+    left: 7px;
+    top: 3px;
+}
+ul.product-rating li {
+    letter-spacing: .1em;
+    font-size: 12px;
+}
+.product-thumb {
+    padding-right: 12px;
+}
+.product-thumb img {
+    width: 94%;
+}
+.products-content {
+    overflow: hidden;
+}
+.service-detials-area .product-icon-list ul li {
+    font-size: 10px;
+}
+.products-title h6 {
+    font-size: 14px;
+}
+.product-price span {
+    font-size: 14px;
+}
+.service-detials-area .product-content {
+    padding: 28px 0px 1px 25px;
+}
+.service-detials-area .product-title h2 {
+    font-size: 16px;
+}
+.service-detials-area .product-text p {
+    font-size: 15px;
+}
+.carvally-single-service-box2 {
+    margin-right: 20px;
+}
+
+/*product details*/
+.product-detials-area {
+    padding: 60px 0 30px;
+}
+.product-detials-area .tab {
+    padding: 0px 0 0 0px;
+}
+.category-title h2 {
+    font-size: 24px;
+}
+.category-description p {
+    font-size: 15px;
+}
+.appoinment-tab {
+    padding: 75px 0 0 50px;
+}
+.product-icon-list ul li {
+    font-size: 14px;
+}
+.product-detials-area .product-content {
+    padding: 28px 30px 1px 30px;
+}
+.product-detials-area .product-title h2 {
+    font-size: 16px;
+}
+.product-text p {
+    font-size: 16px;
+}
+
+/*appoinment*/
+.appoinment-title h2 {
+    font-size: 40px;
+}
+.appoinment-thumb img {
+    width: 100%;
+}
+.appoinment-thumb {
+    left: 0;
+}
+.appoin-thumb {
+    right: 0;
+}
+.quote_form button {
+    padding: 13px 23px;
+    font-size: 14px;
+}
+
+
+/*service section*/
+
+.style-two.service-section .carvally-service-content {
+    padding: 0 80px 0px 8px;
+}
+.style-two.service-section .service-title h2 {
+    font-size: 18px;
+    line-height: 24px;
+}
+.style-two.service-section .service-icon-thumb {
+    height: 88px;
+    width: 78px;
+    line-height: 90px;
+}
+
+/*testimonial section*/
+.testimonial-thumb {
+    margin-right: 0;
+    position: relative;
+    left: 0;
+}
+.testimonial-thumb img {
+    width: 100%;
+}
+
+/*service details section*/
+
+.dreamit-sigle-tmumb img {
+    width: 100%;
+}
+.service-details-box {
+    padding: 20px 0px 13px 20px;
+}
+.service-details-icon {
+    margin-right: 16px;
+}
+.service-details-title h4 {
+    font-size: 20px;
+}
+.services-detials-desc {
+    overflow: hidden;
+}
+.services-detials-desc p {
+    font-size: 14px;
+}
+.service-details-thumb img {
+    width: 100%;
+}
+.service-page-title2 h1 a {
+    font-size: 28px;
+}
+.widget-service-details-icon p {
+    font-size: 15px;
+}
+.service-work-process-box {
+    padding: 40px 20px 20px;
+}
+.service-work-process-title h4 {
+    font-size: 20px;
+}
+.widget-title2 h3 {
+    font-size: 34px;
+    padding: 16px 0 30px;
+}
+/*contact us*/
+iframe {
+    width: 100%;
+}
+.style-two .quote_form button {
+    padding: 13px 35px;
+}
+
+
+
+
+
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.carvally_nav_manu  {
+    display: none !important;
+}
+.header_top_menu {
+    display: none;
+}
+/*slider area*/
+.hero-title h1 {
+    font-size: 60px;
+    line-height: 75px;
+}
+.hero-button {
+    margin-top: 40px;
+}
+.hero2 .hero-title h1 {
+    font-size: 55px;
+    line-height: 68px;
+}
+
+.carvally-bold-title h1 {
+    font-size: 70px;
+}
+
+/*section title*/
+.carvally-section-title h1 {
+    font-size: 38px;
+}
+.carvally-section-title h5 {
+    font-size: 15px;
+}
+.about-section .carvally-section-title h1 {
+    font-size: 29px;
+    line-height: 42px;
+}
+.carvally-section-title p {
+    font-size: 15px;
+}
+.contact-section .carvally-section-title h1 {
+    font-size: 27px;
+    line-height: 40px;
+}
+.contact-section .carvally-section-title h4 {
+    font-size: 14px;
+}
+.comparision-area .carvally-section-title h1 {
+    font-size: 28px;
+    line-height: 42px;
+}
+.why-choose-us-section .carvally-section-title h1 {
+    font-size: 36px;
+    line-height: 46px;
+}
+/*about section*/
+.about-section {
+    padding: 10px 0 45px;
+}
+.about-section .col-lg-6.col-md-6.pr-0.pl-4 {
+    padding: 0 0px 0 0;
+}
+.about-thumb img {
+    width: 100%;
+}
+.shape-thumb-1 {
+    display: none;
+}
+.row.responsive.pt-4 {
+    display: none;
+}
+/*style two*/
+.style-two.about-section {
+    padding: 0px 0 50px;
+}
+.about-ceo-information {
+    top: 20px;
+    left: 0;
+}
+.col-lg-6.col-md-6.pl-100 {
+    padding-left: 20px;
+}
+.conatact-single-box {
+    padding: 1px 30px 10px;
+}
+.about-counter-number h2 {
+    font-size: 70px;
+}
+.about-counter-title h4 {
+    font-size: 22px;
+    line-height: 28px;
+}
+.about-single-counter-box {
+    width: 295px;
+    padding: 31px 25px 44px;
+    top: -6px;
+    left: 0px;
+}
+.amazing-car-rotate {
+    display: none;
+}
+.style-two.upper .about-thumb {
+    padding-right: 30px;
+    left: 0;
+}
+.style-two.upper .about-single-counter-box {
+    top: -37px;
+    left: 0;
+}
+/*service section*/
+.owl-nav {
+    display: none;
+}
+.carvally-single-service-box {
+    padding: 30px 0px 25px 35px;
+    display: block;
+}
+.carvally-service-thumb2 {
+    margin-top: 30px;
+}
+.carvally-service-thumb2 img {
+    width: 95%;
+}
+/*pricing section*/
+.tabs li a {
+    font-size: 15px;
+    padding: 14px 35px;
+}
+span.currency {
+    font-size: 22px;
+}
+span.tk {
+    font-size: 38px;
+}
+span.month {
+    font-size: 22px;
+}
+.pricing-body {
+    padding: 45px 32px 37px 32px;
+}
+/*comparision section*/
+.comparision-area .wrapper {
+    height: 435px;
+    width: 380px;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+}
+
+/*call do section*/
+.call-do-title h2 {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+/*testimonial section*/
+.testimonial-title h4 {
+    font-size: 20px;
+    padding: 0px 0 10px;
+}
+.testimonial-title h4 {
+    font-size: 20px;
+}
+.testi-title h4 {
+    font-size: 20px;
+}
+.testimonial-desc p {
+    font-size: 15px;
+}
+.testi-thumb img {
+    width: 100%;
+}
+.testi-thumb-items {
+    padding-right: 8px;
+    float: inherit;
+    margin-top: 0;
+}
+.testi-thumb {
+    padding-top: 20px;
+}
+.testimonial-content {
+    padding: 0 20px 20px 20px;
+}
+.testimonial-area.style-two .testimonial-content {
+    padding: 0 0px 44px 20px;
+}
+.testimonial-thumb {
+    margin-right: 0;
+    position: relative;
+    left: 0;
+}
+.testimonial-thumb img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+.testimonial-area.style-two {
+    padding: 220px 0 80px;
+}
+.owl-style .owl-dots {
+    text-align: center;
+}
+/*video section*/
+.video-title h1 {
+    font-size: 40px;
+}
+
+/*why choose us*/
+.why-choose-us-section {
+    padding: 10px 110px 100px 8px;
+}
+.row.choose-us-bg {
+    padding: 40px 0px 100px 20px;
+}
+.why-choose-us-thumb {
+    left: 0;
+}
+.why-choose-us-thumb img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+.choose-us-shape2 {
+    right: -73px;
+    bottom: -76px;
+}
+
+/*ingine section*/
+.engine-section {
+    padding: 80px 0 55px;
+}
+.engine-section .tabs li a {
+    padding: 20px 35px;
+    font-size: 15px;
+    margin-right: 15px;
+}
+.carvally-single-engine-items {
+    padding: 60px 40px 70px;
+
+}
+.engine-title h3 {
+    font-size: 30px;
+    line-height: 38px;
+}
+.carvally-engine-thumb img {
+    width: 100%;
+}
+
+/*technicial section*/
+.technician-single-box {
+    width: fit-content;
+    display: inline-block;
+}
+.technician-title h4 {
+    font-size: 19px;
+}
+h4.social-info-title {
+    font-size: 18px;
+}
+
+/*counter section*/
+.counter-section {
+    padding: 0 0 0 0px;
+}
+.row.counter-bg {
+    padding: 75px 0 45px 30px;
+}
+.counter-icon-thumb img {
+    width: 90%;
+}
+.counter-title h1 {
+    font-size: 35px;
+}
+.counter-title h4 {
+    font-size: 16px;
+    line-height: 18px;
+}
+.counter-single-box:before {
+    display: none;
+}
+
+/*contact section*/
+.row.contact-bg {
+    padding: 83px 0px 80px;
+}
+.single-contact-box {
+    padding: 25px 0px 8px 15px;
+}
+.contact-icon {
+    padding: 0 0 10px;
+    float: inherit;
+}
+.contact-title h3 {
+    font-size: 18px;
+}
+.contact-desc p {
+    font-size: 14px;
+}
+.style-two .row.contact-form-bg {
+    padding: 50px 16px 38px;
+}
+.style-two .quote_form button {
+    padding: 13px 20px;
+    font-size: 13px;
+}
+/*product section*/
+.product-title h2 {
+    font-size: 22px;
+}
+.carvally-bold-title h1 {
+    padding: 0 0 50px;
+}
+/*blog section */
+.carvally-single-blog-box {
+    padding: 0 0px 25px 0;
+    display: inline-block;
+}
+.style-two.carvally-single-blog-box {
+    padding: 0 0px 0 0px;
+}
+.carvally-blog-thumb img {
+    width: 100%;
+}
+.carvally-blog-content {
+    padding: 25px 0 0 25px;
+}
+.style-two .carvally-blog-content {
+    padding: 25px 0 25px 25px;
+}
+.blog-title h2 a {
+    font-size: 22px;
+}
+.blog-button a {
+    font-size: 16px;
+}
+/*subscribe section */
+.subscribe-thumb {
+    float: inherit;
+    padding: 0 0 25px;
+}
+.subscribe-title h1 {
+    font-size: 30px;
+    padding: 0;
+    margin-top: 0;
+}
+.subscribe-from input {
+    margin: 15px 0 0 0;
+}
+/*footer section*/
+.footer-thumb2 img {
+    bottom: 2px;
+    right: 40px;
+    width: 32%;
+}
+.footer-thumb img {
+    bottom: 0;
+    left: 18px;
+    width: 32%;
+}
+/*inner page product*/
+.upper.widget_search {
+    text-align: left;
+}
+button.icons {
+    right: 36px;
+}
+.product-sale {
+    top: 1px;
+    right: 5px;
+}
+.product-sale span {
+    padding: 0px 12px;
+    font-size: 10px;
+}
+
+.product-thumb-icon a {
+    font-size: 16px;
+    width: 35px;
+    height: 35px;
+    line-height: 38px;
+}
+.carvally-single-products-box:hover .product-thumb-icon a:nth-child(1) {
+    left: 80px;
+}
+.carvally-single-products-box:hover .product-thumb-icon a:nth-child(2) {
+    right: 66px;
+}
+.service-detials-area .product-content {
+    padding: 28px 0px 1px 20px;
+}
+.service-detials-area .product-icon-list ul li {
+    font-size: 12px;
+    letter-spacing: .1em;
+}
+.service-detials-area .product-title h2 {
+    font-size: 15px;
+}
+.service-detials-area .product-text p {
+    font-size: 15px;
+}
+/*product details*/
+.product-detials-area {
+    padding: 60px 0 30px;
+}
+.product-detials-area .tab {
+    padding: 0px 0 0 0px;
+}
+.category-title h2 {
+    font-size: 24px;
+}
+.category-description p {
+    font-size: 15px;
+}
+.appoinment-tab {
+    padding: 75px 0 0 50px;
+}
+.product-detials-area .tabs_item img {
+    width: 100%;
+}
+.engine-section .tabs li a {
+    padding: 20px 15px;
+}
+.tabs li a img {
+    width: 37%;
+}
+.product-detials-area .tabs li a {
+    margin-right: 10px;
+}
+.product-icon-list ul li {
+    font-size: 14px;
+}
+.product-detials-area .product-content {
+    padding: 28px 30px 1px 30px;
+}
+.product-detials-area .product-title h2 {
+    font-size: 16px;
+}
+.product-text p {
+    font-size: 16px;
+}
+.product-count {
+    padding-right: 8px;
+    margin-left: 0;
+}
+.category-button a {
+    padding: 14px 22px;
+    font-size: 15px;
+}
+
+/*appoinment*/
+.appoinment-title h4 {
+    font-size: 15px;
+}
+.appoinment-title h2 {
+    font-size: 28px;
+}
+.appoinment-thumb img {
+    width: 100%;
+}
+.appoinment-thumb {
+    left: 0;
+}
+.appoin-thumb {
+    right: 0;
+}
+.quote_form button {
+    padding: 13px 23px;
+    font-size: 14px;
+}
+.appoinment-single-box {
+    padding: 40px 35px 75px;
+}
+.appoinment-title h1 {
+    font-size: 27px;
+}
+.appoinment-text p {
+    font-size: 20px;
+}
+.appoinment-text p:before {
+    left: 100px;
+    width: 35px;
+}
+.appoinment-icon-title h4 {
+    font-size: 22px;
+}
+
+/*service section*/
+
+.style-two.service-section .carvally-service-content {
+    padding: 0 80px 0px 15px;
+}
+.style-two.service-section .service-title h2 {
+    font-size: 18px;
+    line-height: 24px;
+}
+.style-two.service-section .service-icon-thumb {
+    height: 92px;
+    width: 78px;
+    line-height: 90px;
+}
+
+/*pricing section*/
+.upper.pricing-section {
+    padding: 55px 0 100px;
+}
+
+/*service details section*/
+
+.dreamit-sigle-tmumb img {
+    width: 100%;
+}
+
+.service-page-title h1 a {
+    font-size: 30px;
+}
+.service-details-box {
+    padding: 20px 0px 13px 16px;
+}
+.service-details-icon {
+    float: inherit;
+}
+.service-details-title h4 {
+    font-size: 17px;
+}
+.services-detials-desc {
+    overflow: hidden;
+}
+.services-detials-desc p {
+    font-size: 12px;
+}
+.serivce-details-desc p {
+    font-size: 15px;
+}
+.service-details-thumb img {
+    width: 100%;
+    margin-bottom: 22px;
+}
+.service-page-title2 h1 a {
+    font-size: 28px;
+}
+.widget-service-details-icon p {
+    font-size: 14px;
+}
+.widget-service-details-icon i {
+    font-size: 23px;
+}
+.service-work-process-box {
+    padding: 40px 12px 20px;
+}
+.service-work-process-title h4 {
+    font-size: 20px;
+}
+.service-work-process-desc p {
+    font-size: 14px;
+}
+.widget-title2 h3 {
+    font-size: 34px;
+    padding: 16px 0 30px;
+}
+/*contact us*/
+iframe {
+    width: 100%;
+}
+.conatact-single-box {
+    padding: 1px 30px 10px;
+}
+.sticky {
+    position: relative !important;
+}
+
+
+
+}
+
+/* Large Mobile :600px. */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+.header_top_menu {
+    display: none;
+}    
+.carvally_nav_manu {
+    display: none;
+}
+
+/*slider area*/
+.hero-title h1 {
+    font-size: 46px;
+    line-height: 50px;
+}
+.hero2 .hero-title h1 {
+    font-size: 50px;
+    line-height: 54px;
+}
+.hero2 .hero-description p {
+    font-size: 18px;
+}
+/*section title*/
+.carvally-section-title h1 {
+    font-size: 30px;
+    line-height: 45px;
+}
+.team_area .carvally-section-title.text-center.pb-60 {
+    padding-bottom: 35px;
+}
+/*about section*/
+.carvally-bold-title h1 {
+    font-size: 76px;
+    padding: 0 0 100px;
+}
+.carvally-bold-title:before {
+    top: 15px;
+    left: 27px;
+    height: 80%;
+    width: 87%;
+}
+.about-section {
+    padding: 10px 0 45px;
+}
+.about-section .col-lg-6.col-md-6.pr-0.pl-4 {
+    display: none;
+}
+.about-thumb img {
+    width: 100%;
+}
+.shape-thumb-1 {
+    display: none;
+}
+.about-single-counter {
+    padding: 0px 0 0 0px;
+}
+.about-box-shape {
+    display: none;
+}
+.single-about-box {
+    margin-top: 30px;
+}
+/*style two*/
+.style-two.about-section {
+    padding: 0px 0 50px;
+}
+.about-ceo-information {
+    top: 20px;
+    left: 0;
+}
+.col-lg-6.col-md-6.pl-100 {
+    padding-left: 20px;
+}
+.conatact-single-box {
+    padding: 1px 30px 10px;
+}
+.about-counter-number h2 {
+    font-size: 70px;
+}
+.about-counter-title h4 {
+    font-size: 22px;
+    line-height: 28px;
+}
+.about-single-counter-box {
+    width: 295px;
+    padding: 31px 25px 44px;
+    top: -6px;
+    left: 0px;
+}
+.amazing-car-rotate {
+    display: none;
+}
+/*service section*/
+.owl-nav {
+    display: none;
+}
+.carvally-single-service-box {
+    padding: 30px 0px 25px 35px;
+    display: block;
+}
+.carvally-service-thumb2 {
+    margin-top: 30px;
+}
+.carvally-service-thumb2 img {
+    width: 95%;
+}
+/*pricing section*/
+.tabs li a {
+    font-size: 15px;
+    padding: 14px 20px;
+    margin-right: 22px;
+}
+span.currency {
+    font-size: 22px;
+}
+span.tk {
+    font-size: 38px;
+}
+span.month {
+    font-size: 22px;
+}
+.pricing-body {
+    padding: 45px 32px 37px 32px;
+    text-align: center;
+}
+/*comparision section*/
+.comparision-area .wrapper {
+    height: 435px;
+    width: 515px;
+    padding: 0 0 0;
+    margin-bottom: 30px;
+}
+
+
+/*call do section*/
+.call-do-title h2 {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+}
+.right-button.text-right {
+    text-align: center;
+}
+.shape-thumb-3 {
+    display: none;
+}
+
+
+/*testimonial section*/
+.carvally-bold-title h1 {
+    font-size: 62px;
+    padding: 0 0 90px;
+}
+.testimonial-title h4 {
+    font-size: 17px;
+    padding: 5px 0 10px;
+}
+.testi-title h4 {
+    font-size: 20px;
+}
+.testimonial-desc p {
+    font-size: 15px;
+}
+.testi-thumb img {
+    width: 88%;
+}
+.testi-thumb-items {
+    padding-right: 0;
+    float: inherit;
+}
+.testimonial-content {
+    padding: 0 0px 20px 20px;
+}
+.testimonial-single-box {
+    text-align: center;
+}
+.owl-style .owl-dots {
+    text-align: center;
+    padding: 0px 0 0;
+}
+/*video section*/
+.video-title h1 {
+    font-size: 40px;
+}
+
+/*why choose us*/
+.why-choose-us-section {
+    padding: 10px 110px 100px 8px;
+}
+.row.choose-us-bg {
+    padding: 40px 0px 100px 20px;
+}
+.why-choose-us-thumb {
+    left: 0;
+}
+.why-choose-us-thumb img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+.choose-us-shape2 {
+    right: -73px;
+    bottom: -76px;
+}
+.choose-us-shape img {
+    width: 100%;
+}
+/*ingine section*/
+.engine-section {
+    padding: 80px 0 55px;
+}
+.engine-section .tabs li a {
+    padding: 20px 11px;
+    font-size: 15px;
+    line-height: 23px;
+    margin-right: 10px;
+}
+.carvally-single-engine-items {
+    padding: 60px 40px 70px;
+
+}
+.engine-title h3 {
+    font-size: 28px;
+    line-height: 38px;
+}
+.engine-items-desc p {
+    width: 100%;
+    font-size: 15px;
+}
+.carvally-engine-thumb img {
+    width: 100%;
+}
+
+/*technicial section*/
+.technician-area {
+    padding: 65px 0 175px;
+}
+.technician-single-box {
+    display: inline-flex;
+    width: 520px;
+}
+.technician-title h4 {
+    font-size: 19px;
+}
+h4.social-info-title {
+    font-size: 18px;
+}
+
+/*counter section*/
+.counter-section {
+    padding: 0 0 0 50px;
+}
+.row.counter-bg {
+    padding: 75px 0 45px 30px;
+    text-align: center;
+}
+.row.counter-bg {
+    padding: 75px 0 45px 30px;
+}
+.counter-icon-thumb img {
+    width: 90%;
+}
+.counter-title h1 {
+    font-size: 35px;
+}
+.counter-title h4 {
+    font-size: 16px;
+    line-height: 18px;
+}
+.counter-single-box:before {
+    display: none;
+}
+
+/*contact section*/
+.row.contact-bg {
+    padding: 83px 0px 80px;
+}
+.single-contact-box {
+    padding: 25px 0px 8px 15px;
+}
+.contact-icon {
+    padding: 0 0 10px;
+    float: inherit;
+}
+.contact-title h3 {
+    font-size: 18px;
+}
+.contact-desc p {
+    font-size: 14px;
+}
+/*product section*/
+.carvally-section-title.white.text-center.pb-60 {
+    padding-bottom: 30px;
+}
+.right-buttons.text-right {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.product-title h2 {
+    font-size: 22px;
+}
+
+/*blog section */
+.blog-section {
+    padding: 0 0 40px;
+}
+.carvally-single-blog-box {
+    padding: 0 0px 25px 0;
+    display: inline-block;
+}
+.style-two.carvally-single-blog-box {
+    padding: 0 0px 0 0px;
+}
+.carvally-blog-thumb img {
+    width: 100%;
+}
+.carvally-blog-content {
+    padding: 25px 0 0 25px;
+}
+.style-two .carvally-blog-content {
+    padding: 25px 0 25px 25px;
+}
+.blog-title h2 a {
+    font-size: 22px;
+}
+.blog-button a {
+    font-size: 16px;
+}
+
+/*subscribe section */
+.subscribe-section {
+    text-align: center;
+}
+.subscribe-thumb {
+    float: inherit;
+    padding: 0 0 25px;
+}
+.subscribe-title h1 {
+    font-size: 30px;
+    padding: 0;
+    margin-top: 0;
+}
+.subscribe-from input {
+    margin: 15px 0 0 0;
+}
+.subscribe-from button {
+    right: 40px;
+    font-size: 15px;
+}
+/*footer section*/
+.footer-section {
+    text-align: center;
+}
+.footer-thumb2 img {
+    bottom: 2px;
+    right: 40px;
+    width: 32%;
+}
+.footer-thumb img {
+    bottom: 0;
+    left: 18px;
+    width: 32%;
+}
+table.widget-table {
+    margin-left: 150px;
+}
+
+/*inner page breatcam*/
+.breatcam-title h1 {
+    font-size: 45px;
+    text-align: center;
+}
+.breatcam-menu {
+    width: 340px;
+}
+
+/*product details*/
+.product-detials-area .tab {
+    padding: 0px 0 0 32px;
+}
+.category-title h2 {
+    font-size: 26px;
+}
+
+/*appoinment*/
+.appoinment-single-box {
+    text-align: center;
+}
+.appoinment-title h4 {
+    font-size: 16px;
+    margin-top: 30px;
+}
+.appoinment-title h2 {
+    font-size: 32px;
+}
+.appoinment-title h1 {
+    font-size: 30px;
+}
+.appoinment-icon-title h4 {
+    font-size: 22px;
+}
+.appoinment-thumb img {
+    width: 100%;
+}
+.appoinment-thumb {
+    left: 0;
+}
+.appoin-thumb {
+    right: 0;
+    top: 995px;
+}
+
+/*service section */
+.style-two.service-section .carvally-service-content {
+    padding: 0 143px 0px 30px;
+}
+.style-two.service-section .service-title h2 {
+    font-size: 27px;
+    line-height: 32px;
+}
+.carvally-service-thumb img {
+    width: 100%;
+}
+/*testimonial section*/
+.testimonial-thumb {
+    margin-right: 0;
+    position: relative;
+    left: 0;
+}
+.testimonial-thumb img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+/*pricing section*/
+.upper.pricing-section {
+    padding: 55px 0 100px;
+}
+
+/*service details section*/
+
+.dreamit-sigle-tmumb img {
+    width: 100%;
+}
+
+.service-page-title h1 a {
+    font-size: 30px;
+}
+.serivce-details-desc p {
+    font-size: 15px;
+}
+.service-details-thumb img {
+    width: 100%;
+    margin-bottom: 22px;
+}
+.service-page-title2 h1 a {
+    font-size: 28px;
+}
+.widget-service-details-icon p {
+    font-size: 15px;
+}
+.widget-service-details-icon i {
+    font-size: 25px;
+}
+.widget-title2 h3 {
+    font-size: 34px;
+    padding: 16px 0 30px;
+}
+
+.widget-categories-thumb {
+    height: 35%;
+    padding: 85px 0 0;
+    background-size: cover;
+}
+/*contact us*/
+iframe {
+    width: 100%;
+}
+.conatact-single-box {
+    padding: 1px 30px 10px;
+}
+.sidebar-title2 h1 {
+    font-size: 45px;
+}
+.sticky {
+    position: relative !important;
+}
+
+
+
+
+
+
+
+
+
+
+}
+/* small mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+.carvally_nav_manu {
+    display: none;
+}
+.header_top_menu {
+    display: none;
+}
+/*slider area*/
+.hero2 {
+    text-align: center;
+}
+.hero-title h1 {
+    font-size: 35px;
+    line-height: 45px;
+}
+.hero-button {
+    margin-top: 34px;
+}
+.hero2 .hero-title h1 {
+    font-size: 42px;
+    line-height: 50px;
+}
+.hero2 .hero-description p {
+    font-size: 18px;
+}
+.hero2 .hero-description p:before {
+    left: 156px;
+}
+
+/*section title*/
+.carvally-section-title h1 {
+    font-size: 30px;
+    line-height: 36px;
+}
+.team_area .carvally-section-title.text-center.pb-60 {
+    padding-bottom: 35px;
+}
+
+
+/*about section*/
+.carvally-section-title {
+    text-align: center;
+}
+.carvally-bold-title h1 {
+    font-size: 76px;
+    padding: 0 0 100px;
+}
+.carvally-bold-title:before {
+    top: 15px;
+    left: 27px;
+    height: 80%;
+    width: 87%;
+}
+.about-section {
+    padding: 10px 0 45px;
+}
+.about-section .col-lg-6.col-md-6.pr-0.pl-4 {
+    display: none;
+}
+.about-thumb img {
+    width: 100%;
+}
+.shape-thumb-1 {
+    display: none;
+}
+.about-single-counter {
+    padding: 0px 0 0 0px;
+}
+.about-box-shape {
+    display: none;
+}
+.single-about-box {
+    margin-top: 30px;
+}
+/*style two*/
+.style-two.about-section {
+    padding: 0px 0 50px;
+}
+.about-ceo-information {
+    top: 20px;
+    left: 0;
+}
+.col-lg-6.col-md-6.pl-100 {
+    padding-left: 20px;
+}
+.conatact-single-box {
+    padding: 1px 30px 10px;
+}
+.about-counter-number h2 {
+    font-size: 70px;
+}
+.about-counter-title h4 {
+    font-size: 22px;
+    line-height: 28px;
+}
+.about-single-counter-box {
+    width: 295px;
+    padding: 31px 25px 44px;
+    top: -6px;
+    left: 0px;
+}
+.amazing-car-rotate {
+    display: none;
+}
+
+
+/*service section*/
+.owl-nav {
+    display: none;
+}
+.carvally-single-service-box {
+    padding: 30px 0px 25px 35px;
+    display: block;
+}
+.carvally-service-thumb2 {
+    margin-top: 30px;
+}
+.carvally-service-thumb2 img {
+    width: 92%;
+}
+.service-title h2 {
+    font-size: 30px;
+}
+/*video section*/
+.video-title h1 {
+    font-size: 32px;
+    line-height: 45px;
+}
+
+/*pricing section*/
+.tabs li a {
+    font-size: 15px;
+    padding: 13px 13px;
+    margin-right: 22px;
+}
+span.currency {
+    font-size: 22px;
+}
+span.tk {
+    font-size: 38px;
+}
+span.month {
+    font-size: 22px;
+}
+.pricing-body {
+    padding: 45px 32px 37px 32px;
+    text-align: center;
+}
+/*comparision section*/
+.comparision-area .wrapper {
+    width: 456px;
+    padding: 0 0 0;
+    margin-bottom: 30px;
+}
+
+/*why choose us*/
+.why-choose-us-section {
+    padding: 10px 68px 100px 8px;
+}
+.row.choose-us-bg {
+    padding: 40px 0px 100px 20px;
+}
+.why-choose-us-thumb {
+    left: 0;
+}
+.why-choose-us-thumb img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+.choose-us-shape2 {
+    right: -30px;
+    bottom: -76px;
+}
+.choose-us-shape img {
+    width: 100%;
+}
+.why-choose-us-desc p {
+    padding: 0 0px 0 0;
+    font-size: 15px;
+}
+/*ingine section*/
+.engine-section {
+    padding: 80px 0 55px;
+}
+.engine-section .tabs li a {
+    padding: 13px 5px;
+    font-size: 15px;
+    line-height: 22px;
+    margin-right: 10px;
+}
+.carvally-single-engine-items {
+    padding: 60px 40px 70px;
+
+}
+.engine-title h3 {
+    font-size: 22px;
+    line-height: 38px;
+}
+.engine-items-desc p {
+    width: 100%;
+    font-size: 15px;
+    padding: 14px 0 18px;
+}
+h4.service-list-title {
+    font-size: 22px;
+}
+.carvally-engine-thumb img {
+    width: 100%;
+}
+.engine-service-list ul li {
+    font-size: 14px;
+}
+.engine-service-list ul li i {
+    font-size: 20px;
+}
+/*technicial section*/
+.technician-area {
+    padding: 65px 0 175px;
+}
+.technician-single-box {
+    display: inline-block;
+    width: 432px;
+    text-align: center;
+}
+.technician-title h4 {
+    font-size: 19px;
+}
+h4.social-info-title {
+    font-size: 18px;
+}
+
+/*counter section*/
+.counter-section {
+    padding: 0 0 0 50px;
+}
+.row.counter-bg {
+    padding: 75px 0 45px 30px;
+    text-align: center;
+}
+.row.counter-bg {
+    padding: 75px 0 45px 30px;
+}
+.counter-icon-thumb img {
+    width: 90%;
+}
+.counter-title h1 {
+    font-size: 35px;
+}
+.counter-title h4 {
+    font-size: 16px;
+    line-height: 18px;
+}
+.counter-single-box:before {
+    display: none;
+}
+
+/*call do section*/
+.call-do-title h2 {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+}
+.right-button.text-right {
+    text-align: center;
+}
+.shape-thumb-3 {
+    display: none;
+}
+
+
+/*testimonial section*/
+.testimonial-area.style-two {
+    padding: 195px 0 65px;
+}
+.carvally-bold-title h1 {
+    font-size: 62px;
+    padding: 0 0 90px;
+}
+.testimonial-title h4 {
+    padding: 5px 0 10px;
+}
+.testi-title h4 {
+    font-size: 20px;
+}
+.testimonial-desc p {
+    font-size: 15px;
+}
+.testi-thumb img {
+    width: 88%;
+}
+.testi-thumb-items {
+    padding-right: 0;
+    float: inherit;
+}
+.testimonial-content {
+    padding: 0 0px 20px 20px;
+}
+.testimonial-single-box {
+    text-align: center;
+}
+.owl-style .owl-dots {
+    padding: 0px 0 0;
+    text-align: center;
+}
+
+
+/*contact section*/
+.contact-section {
+    padding: 0px 0 55px;
+}
+.row.contact-bg {
+    padding: 53px 0px 0 24px;
+    text-align: center;
+}
+.single-contact-box {
+    padding: 25px 0px 8px 15px;
+}
+.contact-icon {
+    padding: 0 0 10px;
+    float: inherit;
+}
+.contact-title h3 {
+    font-size: 18px;
+}
+.contact-desc p {
+    font-size: 14px;
+}
+.contact-shape {
+    display: none;
+}
+
+
+/*brand section*/
+.brand-section {
+    padding: 70px 0 60px;
+}
+.owl-dots {
+    padding: 33px 0 0;
+}
+
+/*product section*/
+.carvally-section-title.white.text-center.pb-60 {
+    padding-bottom: 30px;
+}
+.right-buttons.text-right {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.product-title h2 {
+    font-size: 22px;
+}
+
+
+/*blog section */
+.blog-section {
+    padding: 0 0 52px;
+}
+.carvally-single-blog-box {
+    padding: 0 0px 25px 0;
+    display: inline-block;
+}
+.style-two.carvally-single-blog-box {
+    padding: 0 0px 0 0px;
+}
+.carvally-blog-thumb img {
+    width: 100%;
+}
+.carvally-blog-content {
+    padding: 25px 0 0 25px;
+}
+.style-two .carvally-blog-content {
+    padding: 25px 0 25px 25px;
+}
+.blog-title h2 a {
+    font-size: 22px;
+}
+.blog-button a {
+    font-size: 16px;
+}
+
+
+/*subscribe section */
+.subscribe-section {
+    text-align: center;
+}
+.subscribe-thumb {
+    float: inherit;
+    padding: 0 0 25px;
+}
+.subscribe-title h1 {
+    font-size: 30px;
+    padding: 0;
+    margin-top: 0;
+}
+.subscribe-from input {
+    margin: 15px 0 0 0;
+}
+.subscribe-from button {
+    right: 40px;
+    font-size: 15px;
+}
+
+
+/*footer section*/
+.footer-section {
+    padding: 75px 0 0;
+}
+.footer-section {
+    text-align: center;
+}
+.footer-thumb2 img {
+    bottom: 2px;
+    right: 40px;
+    width: 32%;
+}
+.footer-thumb img {
+    bottom: 0;
+    left: 18px;
+    width: 32%;
+}
+table.widget-table {
+    margin-left: 150px;
+}
+/*footer bottom area*/
+.footer-bottom-area {
+    padding: 60px 0 0;
+}
+.footer-bottom-content-copy p {
+    font-size: 15px;
+}
+
+
+/*inner page breatcam*/
+.breatcam-menu {
+    width: 330px;
+}
+.breatcam-title h1 {
+    font-size: 45px;
+    text-align: center;
+}
+.upper.widget_search {
+    text-align: left;
+    margin-top: 20px;
+}
+button.icons {
+    right: 68px;
+}
+/*product details*/
+.product-detials-area {
+    padding: 75px 0 50px;
+}
+.product-detials-area .tab {
+    padding: 0px 0 0 28px;
+}
+.category-title h2 {
+    font-size: 26px;
+}
+.tabs_item img {
+    width: 100%;
+}
+.appoinment-tab {
+    margin: 0px 0 0 -24px;
+}
+.appoinment-tab .tabs li a {
+    font-size: 14px;
+    padding: 7px 25px;
+}
+.post-comment-description p {
+    font-size: 15px;
+}
+
+/*appoinment*/
+.appoinment-title h4 {
+    font-size: 16px;
+    margin-top: 30px;
+}
+.appoinment-title h2 {
+    font-size: 32px;
+}
+.appoinment-thumb img {
+    width: 100%;
+}
+.appoinment-thumb {
+    left: 0;
+}
+.appoin-thumb {
+    right: 0;
+    top: 995px;
+}
+.appoinment-title h1 {
+    font-size: 34px;
+}
+
+/*service section */
+
+.carvally-service-thumb img {
+    width: 100%;
+}
+/*testimonial section*/
+.testimonial-thumb {
+    margin-right: 0;
+    position: relative;
+    left: 0;
+}
+.testimonial-thumb img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+/*pricing section*/
+.upper.pricing-section {
+    padding: 55px 0 100px;
+}
+
+/*service details section*/
+
+.dreamit-sigle-tmumb img {
+    width: 100%;
+}
+
+.service-page-title h1 a {
+    font-size: 30px;
+}
+.serivce-details-desc p {
+    font-size: 15px;
+}
+.service-details-thumb img {
+    width: 100%;
+    margin-bottom: 22px;
+}
+.service-page-title2 h1 a {
+    font-size: 28px;
+}
+.widget-service-details-icon p {
+    font-size: 15px;
+}
+.widget-service-details-icon i {
+    font-size: 25px;
+}
+.widget-title2 h3 {
+    font-size: 34px;
+    padding: 16px 0 30px;
+}
+
+.widget-categories-thumb {
+    height: 35%;
+    padding: 85px 0 0;
+    background-size: cover;
+}
+
+.service-detials-area .widget_search button.icons {
+    right: 0;
+}
+
+/*contact us*/
+iframe {
+    width: 100%;
+}
+.conatact-single-box {
+    padding: 1px 30px 10px;
+}
+.sidebar-title2 h1 {
+    font-size: 45px;
+}
+.sticky {
+    position: relative !important;
+}
+
+
+
+
+
+}
+
+/* small mobile :320px. */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+.carvally_nav_manu {
+    display: none;
+}
+.header_top_menu {
+    display: none;
+}
+/*slider area*/
+.hero-section {
+    height: 690px;
+    text-align: center;
+}
+.hero-title h1 {
+    font-size: 26px;
+    line-height: 34px;
+}
+.hero-button {
+    margin-top: 34px;
+}
+.hero-icon-thumb img {
+    width: 86%;
+}
+.hero2 .hero-title h1 {
+    font-size: 28px;
+    line-height: 35px;
+}
+.hero2 .hero-description p {
+    font-size: 18px;
+    padding: 20px 0 0 0px;
+}
+.hero2 .hero-description p:before {
+    left: 18px;
+}
+.hero2 .hero-button a {
+    padding: 19px 55px;
+    font-size: 16px;
+}
+.hero-button a {
+    font-size: 15px;
+    padding: 12px 43px;
+}
+.hero-button:before {
+    top: 24px;
+    left: 22px;
+}
+.hero-button:after {
+    top: 24px;
+    right: 39px;
+}
+.hero-button.style-two {
+    margin-top: 7px;
+}
+/*section title*/
+.carvally-section-title h1 {
+    font-size: 25px;
+    line-height: 28px;
+}
+.team_area .carvally-section-title.text-center.pb-60 {
+    padding-bottom: 35px;
+}
+.carvally-section-title h4 {
+    font-size: 15px;
+    line-height: 26px;
+    padding-bottom: 0;
+}
+.carvally-section-title p {
+    font-size: 15px;
+}
+
+/*feature area*/
+.feature-section {
+    padding: 0px  0 30px;
+}
+img.feature-image-2 {
+    left: 65px;
+}
+
+/*about section*/
+.carvally-bold-title h1 {
+    font-size: 76px;
+    padding: 0 0 100px;
+}
+.carvally-bold-title:before {
+    top: 15px;
+    left: 27px;
+    height: 73%;
+    width: 86%;
+}
+.about-section {
+    padding: 10px 0 45px;
+}
+.about-section .col-lg-6.col-md-6.pr-0.pl-4 {
+    display: none;
+}
+.about-thumb img {
+    width: 100%;
+}
+.shape-thumb-1 {
+    display: none;
+}
+.about-single-counter {
+    padding: 0px 0 0 0px;
+}
+.about-box-shape {
+    display: none;
+}
+.single-about-box {
+    margin-top: 30px;
+}
+/*style two*/
+.style-two.about-section {
+    padding: 0px 0 50px;
+}
+.about-ceo-information {
+    top: 20px;
+    left: 0;
+}
+.col-lg-6.col-md-6.pl-100 {
+    padding-left: 20px;
+}
+.conatact-single-box {
+    padding: 1px 30px 10px;
+}
+.about-counter-number h2 {
+    font-size: 70px;
+}
+.about-counter-title h4 {
+    font-size: 22px;
+    line-height: 28px;
+}
+.about-single-counter-box {
+    width: 295px;
+    padding: 31px 25px 44px;
+    top: -6px;
+    left: 0px;
+}
+.amazing-car-rotate {
+    display: none;
+}
+
+
+
+/*service section*/
+.owl-nav {
+    display: none;
+}
+.carvally-single-service-box {
+    padding: 30px 0px 25px 25px;
+    display: block;
+}
+.carvally-service-content {
+    padding: 60px 0 0 10px;
+}
+.service-check-list ul li {
+    font-size: 15px;
+}
+.carvally-service-thumb2 {
+    margin-top: 30px;
+}
+.carvally-service-thumb2 img {
+    width: 92%;
+}
+.service-title h2 {
+    font-size: 30px;
+}
+.service-desc p {
+    width: 98%;
+}
+.service-button a {
+    font-size: 15px;
+    padding: 12px 40px;
+}
+.service-button:before {
+    top: 24px;
+    left: 18px;
+}
+.service-button:after {
+    top: 25px;
+    right: 18px;
+}
+/*pricing section*/
+.tabs li a {
+    font-size: 15px;
+    padding: 13px 0px;
+    margin-right: 4px;
+}
+.pricing-section li.current:before {
+    right: 4px;
+    bottom: -9px;
+    height: 17px;
+    width: 17px;
+}
+span.currency {
+    font-size: 22px;
+}
+span.tk {
+    font-size: 38px;
+}
+span.month {
+    font-size: 22px;
+}
+.pricing-body {
+    padding: 45px 32px 37px 32px;
+    text-align: center;
+}
+.pricing-feature-list ul li {
+    font-size: 14px;
+}
+.upper.pricing-section {
+    padding: 55px 0 100px;
+}
+.pricing-button a {
+    font-size: 15px;
+    padding: 12px 42px;
+}
+.pricing-button:before {
+    top: 25px;
+    left: 20px;
+}
+.pricing-button:after {
+    top: 25px;
+    right: 19px;
+}
+.upper2.testimonial-area.style-two .carvally-section-title h4 {
+    font-size: 16px;
+    margin-top: 30px;
+    padding-bottom: 0px;
+}
+.upper2.testimonial-area.style-two .carvally-section-title h1 {
+    font-size: 25px;
+    line-height: 32px;
+}
+
+
+/*comparision section*/
+.comparision-area .wrapper {
+    width: 294px;
+    padding: 0 0 0;
+    margin-bottom: 30px;
+}
+.style-two.carvally-button a {
+    padding: 16px 60px;
+    font-size: 16px;
+}
+
+.style-two.carvally-button:before {
+    top: 29px;
+    left: 36px;
+}
+.style-two.carvally-button:after {
+    top: 29px;
+    right: 36px;
+}
+
+/*call do section*/
+.call-do-title h2 {
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+}
+.right-button.text-right {
+    text-align: center;
+}
+.shape-thumb-3 {
+    display: none;
+}
+
+/*service section*/
+
+.style-two.service-section .carvally-service-content {
+    padding: 0 80px 0px 20px;
+}
+.style-two.service-section .service-title h2 {
+    font-size: 16px;
+    line-height: 23px;
+}
+.style-two.service-section .service-icon-thumb {
+    height: 90px;
+    width: 78px;
+    line-height: 90px;
+}
+
+.carvally-service-thumb img {
+    width: 100%;
+}
+
+
+/*testimonial section*/
+.carvally-bold-title h1 {
+    font-size: 40px;
+    padding: 0 0 90px;
+}
+.testimonial-title h4 {
+    font-size: 17px;
+    padding: 5px 0 10px;
+}
+.testi-title h4 {
+    font-size: 20px;
+}
+.testimonial-desc p {
+    font-size: 14px;
+}
+.testi-thumb img {
+    width: 88%;
+}
+.testi-thumb-items {
+    padding-right: 0;
+    float: inherit;
+}
+.testimonial-content {
+    padding: 0 0px 20px 20px;
+}
+
+.testimonial-thumb {
+    margin-right: 0;
+    position: relative;
+    left: 0;
+}
+.testimonial-thumb img {
+    width: 100%;
+}
+
+/*why choose us*/
+.why-choose-us-section {
+    padding: 10px 40px 100px 8px;
+}
+.row.choose-us-bg {
+    padding: 40px 0px 100px 20px;
+}
+.why-choose-us-items-box {
+    display: inline-block;
+    padding: 3px 0 5px;
+}
+.why-choose-us-title h3 {
+    font-size: 22px;
+    padding: 10px 0 10px;
+}
+.why-choose-us-thumb {
+    left: 0;
+}
+.why-choose-us-thumb img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+.choose-us-shape2 {
+    right: -2px;
+    bottom: -76px;
+}
+.choose-us-shape img {
+    width: 100%;
+}
+.why-choose-us-desc p {
+    padding: 0 0px 0 0;
+    font-size: 14px;
+}
+
+/*ingine section*/
+.engine-section {
+    padding: 80px 0 55px;
+}
+.engine-section .tabs li a {
+    padding: 5px 2px;
+    font-size: 12px;
+    line-height: 15px;
+    margin-right: 5px;
+}
+.carvally-single-engine-items {
+    padding: 60px 25px 70px;
+    display: block;
+}
+.engine-title h3 {
+    font-size: 19px;
+    line-height: 24px;
+}
+.engine-items-desc p {
+    width: 100%;
+    font-size: 14px;
+    padding: 14px 0 18px;
+}
+h4.service-list-title {
+    font-size: 22px;
+}
+.carvally-engine-thumb img {
+    width: 100%;
+}
+.engine-service-list ul li {
+    font-size: 14px;
+}
+.engine-service-list ul li i {
+    font-size: 20px;
+}
+.engine-button:before {
+    top: 25px;
+    left: 20px;
+}
+.engine-button:after {
+    top: 26px;
+    right: 20px;
+}
+.engine-button a {
+    font-size: 15px;
+    padding: 12px 42px;
+}
+.tabs_item img {
+    width: 100%;
+}
+.tabs li a img {
+    display: none;
+}
+/*technicial section*/
+.technician-area {
+    padding: 65px 0 175px;
+}
+.technician-single-box {
+    display: inline-block;
+    width: 290px;
+    text-align: center;
+}
+.technician-title h4 {
+    font-size: 19px;
+}
+h4.social-info-title {
+    font-size: 18px;
+}
+h4.social-info-title:before {
+    left: 23px;
+}
+
+/*counter section*/
+.counter-section {
+    padding: 0 0 0 20px;
+}
+.row.counter-bg {
+    padding: 75px 0 45px 30px;
+    text-align: center;
+}
+.row.counter-bg {
+    padding: 75px 0 45px 30px;
+}
+.counter-icon-thumb img {
+    width: 90%;
+}
+.counter-title h1 {
+    font-size: 35px;
+}
+.counter-title h4 {
+    font-size: 16px;
+    line-height: 18px;
+}
+.counter-single-box:before {
+    display: none;
+}
+
+/*contact section*/
+.contact-section {
+    padding: 0px 0 55px;
+}
+.row.contact-bg {
+    padding: 53px 0px 0 24px;
+    text-align: center;
+}
+.single-contact-box {
+    padding: 25px 0px 8px 15px;
+}
+.contact-icon {
+    padding: 0 0 10px;
+    float: inherit;
+}
+.contact-title h3 {
+    font-size: 18px;
+}
+.contact-desc p {
+    font-size: 14px;
+}
+.contact-shape {
+    display: none;
+}
+.contact-form-title h2 {
+    font-size: 29px;
+}
+
+/*brand section*/
+.brand-section {
+    padding: 70px 0 60px;
+}
+.owl-dots {
+    padding: 33px 0 0;
+}
+
+/*video section*/
+.video-title h1 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/*product section*/
+.carvally-section-title.white.text-center.pb-60 {
+    padding-bottom: 30px;
+}
+.right-buttons.text-right {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.product-title h2 {
+    font-size: 22px;
+}
+
+
+/*blog section */
+.carvally-single-blog-box {
+    padding: 0 0px 25px 0;
+    display: inline-block;
+}
+.style-two.carvally-single-blog-box {
+    padding: 0 0px 0 0px;
+}
+.carvally-blog-thumb img {
+    width: 100%;
+}
+.carvally-blog-content {
+    padding: 25px 0 0 25px;
+}
+.style-two .carvally-blog-content {
+    padding: 25px 0 25px 25px;
+}
+.blog-title h2 a {
+    font-size: 22px;
+}
+.blog-button a {
+    font-size: 16px;
+}
+
+
+/*subscribe section */
+.subscribe-section {
+    text-align: center;
+}
+.subscribe-thumb {
+    float: inherit;
+    padding: 0 0 25px;
+}
+.subscribe-title h1 {
+    font-size: 30px;
+    padding: 0;
+    margin-top: 0;
+}
+.subscribe-from input {
+    margin: 15px 0 0 0;
+    width: 277px;
+}
+.subscribe-from button {
+    right: 19px;
+    font-size: 13px;
+}
+
+
+/*footer section*/
+.footer-section {
+    text-align: center;
+}
+.footer-thumb2 img {
+    bottom: 2px;
+    right: 40px;
+    width: 32%;
+}
+.footer-thumb img {
+    bottom: 0;
+    left: 18px;
+    width: 32%;
+}
+table.widget-table {
+    margin-left: 30px;
+}
+/*footer bottom area*/
+.footer-bottom-area {
+    padding: 60px 0 0;
+}
+.footer-bottom-content-copy p {
+    font-size: 15px;
+}
+
+/*inner page breatcam*/
+.breatcam-menu {
+    width: 280px;
+}
+.breatcam-title h1 {
+    font-size: 37px;
+    text-align: center;
+}
+.breatcam-menu ul li {
+    font-size: 15px;
+}
+.upper.widget_search {
+    text-align: left;
+    margin-top: 20px;
+}
+button.icons {
+    right: 68px;
+}
+ul.product-rating li {
+    letter-spacing: .2em;
+    font-size: 14px;
+}
+
+
+
+/*product details*/
+.product-detials-area {
+    padding: 75px 0 50px;
+}
+.product-detials-area .tab {
+    padding: 0px 0 0 28px;
+}
+.category-title h2 {
+    font-size: 23px;
+}
+.category-description p {
+    font-size: 15px;
+}
+
+.product-count {
+    padding-right: 12px;
+    margin-left: -28px;
+}
+.category-button a {
+    padding: 13px 18px;
+    font-size: 13px;
+}
+.appoinment-tab {
+    margin: 0px 0 0 -24px;
+}
+.appoinment-tab .tabs li a {
+    font-size: 9px;
+    padding: 3px 20px;
+    margin-right: 4px;
+}
+.post-comment-description p {
+    font-size: 15px;
+}
+
+.product-item-title h2 {
+    padding: 5px 0 35px;
+}
+
+/*appoinment*/
+.appoinment-title h4 {
+    font-size: 16px;
+    margin-top: 30px;
+}
+.appoinment-title h2 {
+    font-size: 32px;
+}
+.appoinment-thumb img {
+    width: 100%;
+}
+.appoinment-thumb {
+    left: 0;
+}
+.appoin-thumb {
+    right: 0;
+    top: 995px;
+}
+.appoinment-title h1 {
+    font-size: 24px;
+}
+.appoinment-text p {
+    font-size: 20px;
+}
+.appoinment-icon-title h4 {
+    font-size: 20px;
+}
+.appoinment-icon i {
+    font-size: 20px;
+    height: 45px;
+    width: 45px;
+    line-height: 46px;
+}
+
+/*service details section*/
+
+.dreamit-sigle-tmumb img {
+    width: 100%;
+}
+
+.service-page-title h1 a {
+    font-size: 30px;
+}
+.serivce-details-desc p {
+    font-size: 15px;
+}
+.service-details-thumb img {
+    width: 100%;
+    margin-bottom: 22px;
+}
+.service-page-title2 h1 a {
+    font-size: 28px;
+}
+.widget-service-details-icon p {
+    font-size: 15px;
+}
+.widget-service-details-icon i {
+    font-size: 22px;
+}
+.service-details-box {
+    text-align: center;
+}
+.service-details-icon {
+    float: inherit;
+}
+.widget-title2 h3 {
+    font-size: 34px;
+    padding: 16px 0 30px;
+}
+
+.widget-categories-thumb {
+    height: 35%;
+    padding: 85px 0 0;
+    background-size: cover;
+}
+
+.service-detials-area .widget_search button.icons {
+    right: 0;
+}
+
+/*contact us*/
+iframe {
+    width: 100%;
+}
+.conatact-single-box {
+    padding: 1px 30px 10px;
+}
+.sidebar-title2 h1 {
+    font-size: 29px;
+}
+.sidebar-title2 h4 {
+    font-size: 16px;
+}
+.sticky {
+    position: relative !important;
+}
+
+
+
+}
+
+
+

@@ -152,6 +152,8 @@ h6 {
 
 .cdx-row {
   margin-bottom: -24px;
+  display: flex;
+  justify-content: space-around;
 }
 .cdx-row > div {
   margin-bottom: 24px;
@@ -2534,8 +2536,8 @@ footer .footer-contact li:hover a i {
   height: 450px;
 }
 
-/******************* 
- 21 FAQ 
+/*******************
+ 21 FAQ
 ******************/
 .cdx-faq .accordion-item {
   border: none;
@@ -2592,7 +2594,7 @@ footer .footer-contact li:hover a i {
 }
 
 /************************
- 22 AUTHENTICATION 
+ 22 AUTHENTICATION
 ***********************/
 .codex-authbox {
   min-width: 630px;
@@ -2768,7 +2770,7 @@ footer .footer-contact li:hover a i {
 }
 
 /*******************
- 24 COMING SOON 
+ 24 COMING SOON
 ******************/
 .coming-soon {
   background: url("../../assets/images/coming-bg.jpg");
@@ -2880,7 +2882,7 @@ footer .footer-contact li:hover a i {
 }
 
 /*******************
- 25 404 ERROR 
+ 25 404 ERROR
 ******************/
 .codex-error {
   text-align: center;
@@ -2994,7 +2996,7 @@ footer .footer-contact li:hover a i {
 }
 
 /*******************
- 27 TEAM PAGE 
+ 27 TEAM PAGE
 ******************/
 .team-info .img-wrap img {
   border-radius: 8px;
@@ -3023,7 +3025,7 @@ footer .footer-contact li:hover a i {
 }
 
 /*******************
- 28 CLASS PAGE 
+ 28 CLASS PAGE
 ******************/
 .brochure-download .btn {
   display: block;
