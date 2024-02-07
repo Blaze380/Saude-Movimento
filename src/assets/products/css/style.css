@@ -82,6 +82,7 @@
 }
 .add-to-cart{
     margin-top: -15px;
+    margin-bottom: 30px;
 }
 /*product button*/
 .product-button a {
@@ -809,7 +810,17 @@ ul.footer-widget-list li a:hover i {
 <-- Start carvally service details css -->
 ********************************************/
 .service-detials-area {
-    padding: 100px 0 100px;
+}
+
+.conteinerrrr{
+        margin-top: 30px;
+
+    width: 100%;
+
+}
+.conteiner-row{
+    display: flex;
+    justify-content: center;
 }
 /*service page title*/
 .service-page-title h1 {
@@ -1783,13 +1794,30 @@ p.form_text {
     line-height: 26px;
     color: #0D0E14;
 }
-
-.products-section-blz{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+@media screen and (max-width:999px) {
+    .products-section-blz{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+    }
 }
+.products-section-blz{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
 
+}
+.product-item{
+    width: 20vw;
+    height: 500px;
+    margin: 40px 10px;
+}
+.search-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 /*
  CART SECTIONNNN
 */

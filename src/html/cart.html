@@ -150,7 +150,7 @@
         <div class="cart-products-container">
           <div class="cart-products">
             <!-- Product Item -->
-            <div class="cart-product-item">
+            <!-- <div class="cart-product-item">
               <hr class="cart-breaker">
               <div class="cart-item">
                 <img class="cart-item-image" src="../assets/images/avtar/1.jpg" alt="">
@@ -159,44 +159,12 @@
                     <h5>[PRODUCT TITLE]</h5>
                     <a class="cart-trash-btn" href=""><i class="fa fa-trash" aria-hidden="true"></i></a>
                   </div>
-                    <p>Quant:[999]</p>
-                    <p>[PRICE]</p>
+                    <p>Quant: [999]</p>
+                    <p>[PRICE] MZN</p>
                   </div>
                 </div>
                 <hr class="cart-breaker">
-            </div>
-            <!-- Product Item -->
-            <div class="cart-product-item">
-              <hr class="cart-breaker">
-              <div class="cart-item">
-                <img class="cart-item-image" src="../assets/images/avtar/1.jpg" alt="">
-                <div class="cart-item-description">
-                  <div class="cart-title">
-                    <h5>[PRODUCT TITLE]</h5>
-                    <a class="cart-trash-btn" href=""><i class="fa fa-trash" aria-hidden="true"></i></a>
-                  </div>
-                    <p>Quant:[999]</p>
-                    <p>[PRICE]</p>
-                  </div>
-                </div>
-                <hr class="cart-breaker">
-            </div>
-            <!-- Product Item -->
-            <div class="cart-product-item">
-              <hr class="cart-breaker">
-              <div class="cart-item">
-                <img class="cart-item-image" src="../assets/images/avtar/1.jpg" alt="">
-                <div class="cart-item-description">
-                  <div class="cart-title">
-                    <h5>[PRODUCT TITLE]</h5>
-                    <a class="cart-trash-btn" href=""><i class="fa fa-trash" aria-hidden="true"></i></a>
-                  </div>
-                    <p>Quant:[999]</p>
-                    <p>[PRICE]</p>
-                  </div>
-                </div>
-                <hr class="cart-breaker">
-            </div>
+            </div> -->
 
           </div>
           <!-- QUOTATION -->
@@ -206,11 +174,11 @@
               <hr class="cart-breaker">
               <div class="cart-total-itens">
                 <p>Total itens:</p>
-                <p>[TOTAL]</p>
+                <p id="cart-total-items">[TOTAL]</p>
               </div>
               <div class="cart-total-cost">
                 <p>Custo Total:</p>
-                <p>[TOTAL] <span style="color:#c70f0f; font-weight: b;">Mzn</span></p>
+                <p id="cart-total-cost">[TOTAL] <span style="color:#c70f0f; font-weight: b;">Mzn</span></p>
               </div>
             </div>
             <a class="cart-payment-btn" href="contact.html">Continuar</a>
@@ -339,5 +307,6 @@
     <!-- theme js -->
     <script src="../assets/products/js/theme.js"></script>
     <script src="../assets/products/js/price-ranger.js"></script>
+    <script type="module" src="../assets/products/js/products/CartEventHandler.js"></script>
   </body>
 </html>
