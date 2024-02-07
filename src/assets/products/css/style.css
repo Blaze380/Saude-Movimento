@@ -44,10 +44,14 @@
 }
 /*product content*/
 .product-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 28px 0 30px;
-    background: #25262B;
     border-radius: 0px 0px 5px 5px;
 }
+
 
 /*product list*/
 .product-icon-list ul li {
@@ -69,14 +73,16 @@
     font-weight: 500;
     line-height: 26px;
     color: #ED1C24;
-    padding: 15px 0 15px;
+
 }
 .product-text span {
     color: #A2A2A2;
     margin-right: 10px;
     text-decoration: line-through;
 }
-
+.add-to-cart{
+    margin-top: -15px;
+}
 /*product button*/
 .product-button a {
     padding: 8px 25px;
@@ -1784,9 +1790,88 @@ p.form_text {
     justify-content: space-between;
 }
 
-.cart {
-    text-align: center;
-}
+/*
+ CART SECTIONNNN
+*/
+
 .cart-products-container{
     display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:992px) {
+    .cart-products-container {
+        align-items: center;
+    }
+}
+.cart-item-image{
+    margin-right:18px;
+    width: 120px;
+    height:120px;
+}
+.cart-item{
+    width: 600px;
+    display: flex;
+    align-items: center;
+}
+.cart{
+    margin: 30px;
+}
+
+.cart-product-item a{
+    margin-right: 10px;
+}
+.cart-products,.cart-price-total{
+    box-shadow: 0 0 3px 4px #00000011;
+}
+.cart-title{
+    display: flex;
+    justify-content: space-between;
+
+}
+.cart-item-description{
+    width: 100%;
+}
+.cart-payment-btn{
+    background-color: #c70f0f;
+    color: white;
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+}
+.cart-payment-btn:hover{
+    color: white;
+}
+.cart-breaker{
+    padding: 0;
+    margin: 15px;
+}
+.cart-total-itens,.cart-total-cost{
+    display: flex;
+    justify-content: space-between;
+}
+.cart-price-total{
+    text-align: center;
+    width: 30%;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.cart-price-total h3{
+    margin: 20px 0;
+}
+.cart-price-total a,.link-cart{
+    border: none;
+}
+.cart-quotation{
+    width: 70%;
+    margin-bottom: 10px;
+}
+@media screen and (max-width:1010px) {
+    .cart-price-total{}
 }
