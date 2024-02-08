@@ -133,9 +133,14 @@ function setProductWithoutDiscount(product) {
   //Image container and image
   image.src = product.image;
   image.alt = "Imagem de um produto";
-  image.id = product.id;
   imgContainer.classList.add("carvally-prosucts-thumb2");
+  imgContainer.id = product.id;
   imgContainer.appendChild(image);
+
+  imgContainer.addEventListener("click", () => {
+    localStorage.setItem("productPreviewId", product.id);
+    location.href = "products-details.html";
+  });
 
   //Product Content, title and text
   productTitle.innerText = product.name;

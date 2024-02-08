@@ -149,22 +149,28 @@
         <!-- CART AND PRICEEEEW -->
         <div class="cart-products-container">
           <div class="cart-products">
+            <!-- OPTIONS SECTION -->
+            <div class="cart-remove-product">
+                <h3>Carrinho de Compras</h3>
+                    <button id="remove-all-products-btn" class="cart-trash-btn" href=""><i class="fa fa-trash" aria-hidden="true"></i> Remover Todos produtos</button>
+            </div>
+            <hr class="cart-breaker">
             <!-- Product Item -->
-            <!-- <div class="cart-product-item">
+            <div class="cart-product-item" id="template-product">
               <hr class="cart-breaker">
               <div class="cart-item">
                 <img class="cart-item-image" src="../assets/images/avtar/1.jpg" alt="">
                 <div class="cart-item-description">
                   <div class="cart-title">
                     <h5>[PRODUCT TITLE]</h5>
-                    <a class="cart-trash-btn" href=""><i class="fa fa-trash" aria-hidden="true"></i></a>
+                    <button class="cart-trash-btn" href=""><i class="fa fa-trash" aria-hidden="true"></i> Remover</button>
                   </div>
-                    <p>Quant: [999]</p>
+                    <p>Quantidade: [999]</p>
                     <p>[PRICE] MZN</p>
                   </div>
                 </div>
                 <hr class="cart-breaker">
-            </div> -->
+            </div>
 
           </div>
           <!-- QUOTATION -->
@@ -174,11 +180,11 @@
               <hr class="cart-breaker">
               <div class="cart-total-itens">
                 <p>Total itens:</p>
-                <p id="cart-total-items">[TOTAL]</p>
+                <p id="cart-total-items">0</p>
               </div>
               <div class="cart-total-cost">
                 <p>Custo Total:</p>
-                <p id="cart-total-cost">[TOTAL] <span style="color:#c70f0f; font-weight: b;">Mzn</span></p>
+                <p id="cart-total-cost">0 <span style="color:#c70f0f; font-weight: b;">Mzn</span></p>
               </div>
             </div>
             <a class="cart-payment-btn" href="contact.html">Continuar</a>
