@@ -58,7 +58,7 @@ function addProductIntoCart(cartProduct, product) {
   const productImg = document.createElement("img");
   const productDescription = document.createElement("div");
   const productTitleContainer = document.createElement("div");
-  const productTitle = document.createElement("h5");
+  const productTitle = document.createElement("h6");
   const productTrashBtn = document.createElement("button");
   const productQuantity = document.createElement("p");
   const productPrice = document.createElement("p");
@@ -73,7 +73,8 @@ function addProductIntoCart(cartProduct, product) {
   cartProductItem.appendChild(productImg);
   //Product Description, title quantity and price
   productTrashBtn.classList.add("cart-trash-btn");
-  productTrashBtn.innerHTML = `<i class="fa fa-trash" aria-hidden="true"></i> Remover`;
+  productTrashBtn.classList.add("cart-trash-btn-item");
+  productTrashBtn.innerHTML = `<i class="fa fa-trash" aria-hidden="true"></i>`;
   productTitle.innerText = product.name;
   productTitleContainer.classList.add("cart-title");
   productTitleContainer.appendChild(productTitle);

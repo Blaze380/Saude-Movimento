@@ -75,7 +75,7 @@ function setProductWithDiscount(product) {
   productTitleContainer.classList.add("product-title");
   productTitleContainer.appendChild(productTitle);
 
-  productText.innerHTML = `<span>${product.discountPrice} MZN</span> ${product.price} MZN`;
+  productText.innerHTML = `<span>${product.discountPrice} MZN</span><br> ${product.price} MZN`;
   productTextContainer.classList.add("product-text");
   productTextContainer.appendChild(productText);
 
@@ -89,10 +89,11 @@ function setProductWithDiscount(product) {
   addToCartBtn.classList.add("btn-primary");
   addToCartBtn.classList.add("link-cart");
   addToCartBtn.classList.add("add-to-cart");
-  addToCartBtn.innerHTML = `<i class="fa fa-shopping-cart" aria-hidden="true"></i> Adicionar ao Carrinho`;
+  addToCartBtn.innerHTML = `<i class="fa fa-shopping-cart" aria-hidden="true"></i> Adicionar`;
   productContent.appendChild(addToCartBtn);
   addToCartBtn.addEventListener("click", () => {
     addProductToCart(addToCartBtn.id, product.price, 1);
+    showAddToCartPopUp();
   });
 
   /**
@@ -102,6 +103,27 @@ function setProductWithDiscount(product) {
   productBox.appendChild(productContent);
   productContainer.appendChild(productBox);
   productSection.appendChild(productContainer);
+}
+
+function showAddToCartPopUp() {
+  const addToCartContainer = document.getElementsByClassName(
+    "add-to-cart-popup-container"
+  )[0];
+  addToCartContainer.style.display = "block";
+  addToCartContainer.style.animation = "popup_opacity_on 1s ease";
+  closeAddToCartPopUp();
+}
+function closeAddToCartPopUp() {
+  const addToCartContainer = document.getElementsByClassName(
+    "add-to-cart-popup-container"
+  )[0];
+  const addToCartPopUpBtn = document.getElementById("add-to-cart-popup-btn");
+  addToCartPopUpBtn.addEventListener("click", () => {
+    addToCartContainer.style.animation = "popup_opacity_off 1s ease";
+    setTimeout(() => {
+      addToCartContainer.style.display = "none";
+    }, 1000);
+  });
 }
 
 /**
@@ -161,10 +183,11 @@ function setProductWithoutDiscount(product) {
   addToCartBtn.classList.add("btn-primary");
   addToCartBtn.classList.add("link-cart");
   addToCartBtn.classList.add("add-to-cart");
-  addToCartBtn.innerHTML = `<i class="fa fa-shopping-cart" aria-hidden="true"></i> Adicionar ao Carrinho`;
+  addToCartBtn.innerHTML = `<i class="fa fa-shopping-cart" aria-hidden="true"></i> Adicionar`;
   productContent.appendChild(addToCartBtn);
   addToCartBtn.addEventListener("click", () => {
     addProductToCart(addToCartBtn.id, product.price, 1);
+    showAddToCartPopUp();
   });
 
   /**

@@ -112,16 +112,9 @@
                 <li class="menu-item"><a href="products.html">Loja</a></li>
                 <li class="menu-item"><a href="about-us.html">About-us</a></li>
                 <li class="menu-item"><a href="contact.html">Contacto</a></li>
-                <!-- <li class="menu-item"><a href="javascript:void(0);">Classes <i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                      <ul class="submenu-list">
-                        <li><a href="classes.html">Classes</a></li>
-                        <li><a href="class-detail.html">Class Details</a></li>
-                        <li><a href="class-schedule.html">Class Schedule</a></li>
-                      </ul>
-                    </li> -->
               </ul>
               <div class="d-flex align-items-center">
-                <a class="btn btn-primary link-cart" href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i>  Carrinho</a>
+                <a class="btn btn-primary link-cart"  href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i>  Carrinho</a>
               </div>
             </div>
           </div>
@@ -167,27 +160,25 @@
 
       <div class="search-container">
         <div class="categories-section">
-          <select id="cars" name="carlist" form="carform">
-            <option value="service">Roupa</option>
+          <select name="carlist">
+            <option value="service" selected>Gabadiya aaa</option>
             <option value="volvo">9 itens</option>
             <option value="saab">8 itens</option>
             <option value="opel">7 itens</option>
             <option value="audi">6 itens</option>
           </select>
         </div>
+        <!-- DON'T TOUCH THESE THREE 'DIV's!!!! -->
+        <div class="search-helpers"></div>
+        <div class="search-helpers"></div>
+        <div class="search-helpers"></div>
         <div class="search-section">
-          <div class="widget_search upper">
-            <form action="#" method="get">
-              <input type="text" name="s" value="" placeholder="Pesquise aqui" title="Search for:">
-              <button type="submit" class="icons">
-                <i class="fa fa-search"></i>
-              </button>
-            </form>
-          </div>
+          <input type="search" name="g" id="search-bar" placeholder="Pesquise algo...">
+          <button id="search-btn"><i class="fa fa-search" aria-hidden="true"></i></button>
         </div>
       </div>
-      <div class="">
-        <div class="products-section-blz-before">
+
+
           <!-- PRODUCTS PART!!!!!!!!!!! -->
           <div class="products-section-blz">
             <!-- Product Item -->
@@ -209,14 +200,15 @@
                   </div>
                   <!-- product text -->
                   <div class="product-text">
-                    <p><span>4000 MZN</span>2500 MZN</p>
+                    <p><span>4000 MZN</span><br>2500 MZN</p>
                   </div>
-                  <a class="btn btn-primary link-cart add-to-cart" href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Adicionar ao Carrinho</a>
+                  <a class="btn btn-primary link-cart add-to-cart" href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Adicionar</a>
                 </div>
               </div>
             </div>
 
           </div>
+          <!-- Pagination -->
           <div class="col-lg-12">
             <div class="pagination-menu text-center pt-50">
               <ul>
@@ -233,11 +225,11 @@
               </ul>
             </div>
           </div>
-        </div>
-   </div>
+
     </div>
   </div>
 </div>
+
 <!--==================================================-->
 <!-- End carvally service detials Area -->
 <!--==================================================-->
@@ -313,6 +305,19 @@
     </div>
     <!-- footer end-->
 
+<div class="add-to-cart-popup-container">
+      <div class="add-to-cart-popup">
+        <div class="cart-popup">
+          <h3>Informação</h3>
+          <p>Producto adicionado no Carrinho!</p>
+          <div class="cart-popup-buttons">
+            <button id="add-to-cart-popup-btn" class="btn btn-primary link-cart">Ok</button>
+            <a class="btn btn-primary link-cart" href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Ver
+              Carrinho</a>
+          </div>
+        </div>
+      </div>
+</div>
     <!-- Tap To Top Start--><a class="scroll-top" href="Javascript:void(0)"><i class="fa fa-angle-double-up"></i></a>
     <!-- Tap To Top End-->
     <!-- Main jquery-->
