@@ -87,7 +87,6 @@ function addProductIntoCart(cartProduct, product) {
   productDescription.appendChild(productQuantity);
   productDescription.appendChild(productPrice);
   cartProductItem.appendChild(productDescription);
-
   productTrashBtn.addEventListener("click", () => {
     const totalItems = document.getElementById("cart-total-items");
     const totalCost = document.getElementById("cart-total-cost");
@@ -102,6 +101,7 @@ function addProductIntoCart(cartProduct, product) {
       parseInt(totalCost.innerText) - cartProduct.totalPrice + " MZN";
     console.log(product.id);
     removeItemInTheCart(product.id);
+    showRemovedFromCartPopUp();
   });
 
   /**
@@ -114,6 +114,38 @@ function addProductIntoCart(cartProduct, product) {
 
   //add hr
 }
+
+function showRemovedFromCartPopUp() {
+  const removedProductPopUpContainer = document.getElementsByClassName(
+    "removed-product-popup"
+  )[0];
+  removedProductPopUpContainer.style.animation = "show_removed_popup 1.2s ease";
+  removedProductPopUpContainer.style.transform = "translateX(0)";
+  closeRemovedFromCartPopUp();
+}
+function closeRemovedFromCartPopUp() {
+  let isClosed = false;
+  const removedProductPopUpContainer = document.getElementsByClassName(
+    "removed-product-popup"
+  )[0];
+  const removedProductPopUpBtn = document.getElementById(
+    "removed-product-popup-btn"
+  );
+  removedProductPopUpBtn.addEventListener("click", () => {
+    removedProductPopUpContainer.style.transform = "translateX(50vw)";
+    isClosed = true;
+  });
+  if (isClosed === false) {
+    setTimeout(() => {
+      removedProductPopUpContainer.style.animation =
+        "close_removed_popup 1.2s ease-in";
+      setTimeout(() => {
+        removedProductPopUpContainer.style.transform = "translateX(50vw)";
+      }, 1200);
+    }, 2000);
+  }
+}
+
 function removeItemInTheCart(productId) {
   const cartProducts = JSON.parse(localStorage.getItem("cart"));
   let newCartProducts = [];
@@ -132,5 +164,11 @@ function removeItemInTheCart(productId) {
 function activateAllFunctions() {
   removeAllProducts();
   getCartProducts();
+  const removeAllProductsBtn = document.getElementById(
+    "remove-all-products-btn"
+  );
+  removeAllProductsBtn.addEventListener("click", () => {
+    showRemovedFromCartPopUp();
+  });
 }
 activateAllFunctions();

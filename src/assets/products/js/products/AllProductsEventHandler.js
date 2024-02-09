@@ -110,7 +110,7 @@ function showAddToCartPopUp() {
     "add-to-cart-popup-container"
   )[0];
   addToCartContainer.style.display = "block";
-  addToCartContainer.style.animation = "popup_opacity_on 1s ease";
+  addToCartContainer.style.animation = "popup_opacity_on .6s ease";
   closeAddToCartPopUp();
 }
 function closeAddToCartPopUp() {
@@ -119,10 +119,10 @@ function closeAddToCartPopUp() {
   )[0];
   const addToCartPopUpBtn = document.getElementById("add-to-cart-popup-btn");
   addToCartPopUpBtn.addEventListener("click", () => {
-    addToCartContainer.style.animation = "popup_opacity_off 1s ease";
+    addToCartContainer.style.animation = "popup_opacity_off .6s ease";
     setTimeout(() => {
       addToCartContainer.style.display = "none";
-    }, 1000);
+    }, 600);
   });
 }
 
