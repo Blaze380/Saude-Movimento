@@ -13,7 +13,7 @@ export const categories = [
   },
   {
     id: 4,
-    name: "Sainhas Sexy",
+    name: "Toalhasf",
   },
 ];
 
@@ -26,6 +26,8 @@ export const products = [
     discountPercentage: 0,
     discountPrice: 0,
     image: "products/a1.jpg",
+    image2: "products/a2.jpg",
+    image1: "products/a3.jpg",
   },
   {
     id: 1,
@@ -35,6 +37,8 @@ export const products = [
     discountPercentage: 30,
     discountPrice: 700,
     image: "products/b1.jpg",
+    image2: "products/b2.jpg",
+    image1: "products/b3.jpg",
   },
   {
     id: 2,
@@ -44,6 +48,8 @@ export const products = [
     discountPercentage: 0,
     discountPrice: 0,
     image: "products/c1.jpg",
+    image2: "products/c2.jpg",
+    image1: "products/c3.jpg",
   },
   {
     id: 3,
@@ -53,6 +59,8 @@ export const products = [
     discountPercentage: 0,
     discountPrice: 0,
     image: "products/d1.jpg",
+    image2: "products/d2.jpg",
+    image1: "products/d3.jpg",
   },
   {
     id: 4,
@@ -62,6 +70,8 @@ export const products = [
     discountPercentage: 0,
     discountPrice: 0,
     image: "products/e1.jpg",
+    image2: "products/e2.jpg",
+    image1: "products/e3.jpg",
   },
   {
     id: 5,
@@ -71,6 +81,8 @@ export const products = [
     discountPercentage: 10,
     discountPrice: 600,
     image: "products/f1.jpg",
+    image2: "products/f2.jpg",
+    image1: "products/f3.jpg",
   },
 ];
 

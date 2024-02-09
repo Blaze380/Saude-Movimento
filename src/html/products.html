@@ -182,30 +182,30 @@
           <!-- PRODUCTS PART!!!!!!!!!!! -->
           <div class="products-section-blz">
             <!-- Product Item -->
-            <div class="col-lg-4 col-md-6 product-item">
+            <!-- <div class="col-lg-4 col-md-6 product-item">
               <div class="carvally-single-products-box">
-                <!-- products thumb -->
+
                 <div class="carvally-prosucts-thumb2">
                   <img src="products/b1.jpg" alt="">
-                  <!-- product sale -->
+
                   <div class="product-sale">
                     <span> -30%</span>
                   </div>
                 </div>
-                <!-- products content -->
+
                 <div class="product-content">
-                  <!-- product list -->
+
                   <div class="product-title">
                     <h2>Bralette sem costura</h2>
                   </div>
-                  <!-- product text -->
+
                   <div class="product-text">
                     <p><span>4000 MZN</span><br>2500 MZN</p>
                   </div>
                   <a class="btn btn-primary link-cart add-to-cart" href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Adicionar</a>
                 </div>
               </div>
-            </div>
+            </div> -->
 
           </div>
           <!-- Pagination -->
@@ -305,19 +305,45 @@
     </div>
     <!-- footer end-->
 
-<div class="add-to-cart-popup-container">
-      <div class="add-to-cart-popup">
-        <div class="cart-popup">
-          <h3>Informação</h3>
-          <p>Producto adicionado no Carrinho!</p>
-          <div class="cart-popup-buttons">
-            <button id="add-to-cart-popup-btn" class="btn btn-primary link-cart">Ok</button>
-            <a class="btn btn-primary link-cart" href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Ver
-              Carrinho</a>
+<div class="product-details-container">
+  <button id="close-product-details-btn" class="btn btn-primary link-cart add-to-cart">Fechar <i class="fa fa-close" aria-hidden="true"></i></button>
+  <div class="product-details">
+        <!-- Images -->
+        <div class="product-images">
+          <div class="current-image">
+            <img id="current-image"  src="./products/a1.jpg" alt="">
+          </div>
+          <ul class="preview-images">
+            <li class="preview-image-mini"><img id="img1" src="./products/a1.jpg" alt=""></li>
+            <li class="preview-image-mini"><img id="img2" src="./products/a2.jpg" alt=""></li>
+            <li class="preview-image-mini"><img id="img3" src="./products/a3.jpg" alt=""></li>
+          </ul>
+        </div>
+        <div class="product-description">
+          <div class="product-details-title">
+            <h5 id="product-details-title">[PRODUCT TITLE]</h5>
+          </div>
+          <div class="category-price">
+            <h1 id="product-details-price"> [DISCOUNT] <span>[OLD PRICE]</span></h1>
+          </div>
+          <div class="product-count">
+            <button class="button-count1 no-active" disabled> <i class="fas fa-angle-up"></i></button>
+            <input id="product-quantity" type="number"  class="number-product" value="1">
+            <button class="button-count"><i class="fa fa-angle-down"></i></button>
+          </div>
+          <div class="buy-now">
+            <button id="add-to-cart-details" class="btn btn-primary link-cart add-to-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Adicionar</button>
+            <a class="btn btn-primary link-cart add-to-cart" href="cart.html"><i class="fa fa-money-bill" aria-hidden="true"></i> Comprar!</a>
           </div>
         </div>
       </div>
 </div>
+    <div class="removed-product-popup">
+      <div class="removed-product-popup-container">
+        <p>Produto Adicionado no Carrinho!</p>
+        <button id="removed-product-popup-btn" class="btn btn-primary link-cart"><i class="fa fa-shopping-cart"></i></button>
+      </div>
+    </div>
     <!-- Tap To Top Start--><a class="scroll-top" href="Javascript:void(0)"><i class="fa fa-angle-double-up"></i></a>
     <!-- Tap To Top End-->
     <!-- Main jquery-->

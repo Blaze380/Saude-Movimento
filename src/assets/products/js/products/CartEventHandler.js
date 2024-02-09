@@ -87,10 +87,14 @@ function addProductIntoCart(cartProduct, product) {
   productDescription.appendChild(productQuantity);
   productDescription.appendChild(productPrice);
   cartProductItem.appendChild(productDescription);
+
   productTrashBtn.addEventListener("click", () => {
     const totalItems = document.getElementById("cart-total-items");
     const totalCost = document.getElementById("cart-total-cost");
-    cartProductSection.removeChild(productContainer);
+    productContainer.style.animation = "zoomOutUp 1s";
+    setTimeout(() => {
+      cartProductSection.removeChild(productContainer);
+    }, 1000);
 
     if (cartProductSection.children.length <= 3) {
       document.getElementById("template-product").style.display = "block";
@@ -119,7 +123,7 @@ function showRemovedFromCartPopUp() {
   const removedProductPopUpContainer = document.getElementsByClassName(
     "removed-product-popup"
   )[0];
-  removedProductPopUpContainer.style.animation = "show_removed_popup 1.2s ease";
+  removedProductPopUpContainer.style.animation = "bounceInRight 1s";
   removedProductPopUpContainer.style.transform = "translateX(0)";
   closeRemovedFromCartPopUp();
 }
@@ -135,13 +139,12 @@ function closeRemovedFromCartPopUp() {
     removedProductPopUpContainer.style.transform = "translateX(50vw)";
     isClosed = true;
   });
-  if (isClosed === false) {
+  if (isClosed == false) {
     setTimeout(() => {
-      removedProductPopUpContainer.style.animation =
-        "close_removed_popup 1.2s ease-in";
+      removedProductPopUpContainer.style.animation = "bounceOutRight 1s";
       setTimeout(() => {
         removedProductPopUpContainer.style.transform = "translateX(50vw)";
-      }, 1200);
+      }, 1000);
     }, 2000);
   }
 }
