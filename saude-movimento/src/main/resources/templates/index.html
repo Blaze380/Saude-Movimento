@@ -8,10 +8,22 @@
 </head>
 
 <body>
+    <style>
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 400px;
+        }
+    </style>
     <form id="uploadForm">
-        <input type="text" name="id" placeholder="ID do Produto" />
         <input type="text" name="name" placeholder="Nome do Produto" />
         <input type="text" name="price" placeholder="Preço do Produto" />
+        <input type="text" name="isDiscount" placeholder="Desconto?" />
+        <input type="text" name="discountPercentage" placeholder="Percentagem" />
+        <input type="text" name="discountPrice" placeholder="Preço do desconto" />
+        <input type="text" name="category" placeholder="Categoria" />
         <input type="file" name="image" />
         <button type="submit">Enviar</button>
     </form>
@@ -20,7 +32,7 @@
             e.preventDefault();
 
             var formData = new FormData(this);
-            fetch('http://localhost:8080/images', {
+            fetch('http://localhost:8080/products', {
                 method: 'POST',
                 body: formData
             })

@@ -1,6 +1,6 @@
 package com.sparktech.saudemovimento.models;
 
-import org.springframework.web.multipart.MultipartFile;
+import java.math.BigDecimal;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -23,12 +23,10 @@ public class ProductModel {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long productID;
     private String productName;
-    private Long productPrice;
+    private BigDecimal productPrice;
     private boolean isProductDiscount;
     private Long productDiscountPercentage;
-    private Long productDiscountPrice;
+    private BigDecimal productDiscountPrice;
     private String productCategory;
-    // private MultipartFile productImage;
-    // private MultipartFile productImage2;
-    // private MultipartFile productImage3;
+    private String productFileName;
 }
