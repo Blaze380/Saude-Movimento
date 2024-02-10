@@ -5,11 +5,14 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.List;
 
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.sparktech.saudemovimento.models.ProductModel;
+import com.sparktech.saudemovimento.models.records.ProductRecord;
 import com.sparktech.saudemovimento.repositories.ProductRepository;
 
 import lombok.AllArgsConstructor;
@@ -33,9 +36,21 @@ public class ProductService {
             e.printStackTrace();
         }
         // Sets the original filename with an ID, to prevent duplicated images
-        productModel.setProductFileName(productModel.getProductID() + productModel.getProductFileName().toLowerCase());
+        productModel
+                .setProductFileName1(productModel.getProductID() + productModel.getProductFileName1().toLowerCase());
         productRepository.save(productModel);
 
+    }
+
+    public List<ProductRecord> getAllProducts() {
+        final List<ProductModel> products = productRepository.findAll();
+        ArrayList<ProductRecord> productRecords = new ArrayList<ProductRecord>();
+        String fileName = "";
+        for (int i = 0; i < products.size(); i++) {
+            fileName = products.get(i).getProductFileName1();
+            productRecords.add(new ProductRecord(products.get(i), getProductImages(fileName)));
+        }
+        return productRecords;
     }
 
     private void saveProductImage(MultipartFile productImage, Long productId) throws IOException {
@@ -46,6 +61,17 @@ public class ProductService {
             Files.write(productsPath, imageBytes);
             createDirectoryPath(imagesPath);
         }
+    }
+
+    private byte[] getProductImages(String fileName) {
+        File productImagePath = new File(imagesPath + fileName);
+        byte[] imageBytes = null;
+        try {
+            imageBytes = Files.readAllBytes(productImagePath.toPath());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return imageBytes;
     }
 
     private void createDirectoryPath(String path) {

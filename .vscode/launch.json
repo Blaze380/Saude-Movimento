@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-SaudeMovimentoApplication<saude-movimento>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.sparktech.saudemovimento.SaudeMovimentoApplication",
+            "projectName": "saude-movimento",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

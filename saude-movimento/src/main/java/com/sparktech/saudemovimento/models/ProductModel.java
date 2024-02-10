@@ -28,5 +28,7 @@ public class ProductModel {
     private Long productDiscountPercentage;
     private BigDecimal productDiscountPrice;
     private String productCategory;
-    private String productFileName;
+    private String productFileName1;
+    private String productFileName2;
+    private String productFileName3;
 }

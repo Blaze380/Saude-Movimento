@@ -1,4 +1,4 @@
-package com.sparktech.saudemovimento;
+package com.sparktech.saudemovimento.auth;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

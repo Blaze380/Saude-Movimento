@@ -27,19 +27,27 @@
         <input type="file" name="image" />
         <button type="submit">Enviar</button>
     </form>
+    <img id="img" src="" alt="">
     <script>
+        var helicopter=null
         document.getElementById('uploadForm').addEventListener('submit', function (e) {
             e.preventDefault();
-
+            
             var formData = new FormData(this);
-            fetch('http://localhost:8080/products', {
+            fetch('http://localhost:8080/products/save-product', {
                 method: 'POST',
                 body: formData
             })
                 .then(response => console.log(response))
                 .catch(error => console.error(error));
         });
-
+        fetch("http://localhost:8080/products/public/all-products",)
+        .then(response=>response.json())
+        .then(data =>{
+            const imgUrl =`data:image/jpeg;base64,${data[2].productImage}`;
+            const img =document.getElementById("img")
+            img.src =imgUrl;
+        })
     </script>
 </body>
 
