@@ -5,6 +5,6 @@ import com.sparktech.saudemovimento.models.ProductModel;
 /**
  * Product DTO
  */
-public record ProductRecord(ProductModel productModel, byte[] productImage) {
+public record ProductRecord(ProductModel productModel, ImagesRecord productImages) {
 
 }

@@ -12,6 +12,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.sparktech.saudemovimento.models.ProductModel;
+import com.sparktech.saudemovimento.models.records.ImagesRecord;
 import com.sparktech.saudemovimento.models.records.ProductRecord;
 import com.sparktech.saudemovimento.repositories.ProductRepository;
 
@@ -29,40 +30,78 @@ public class ProductService {
      * @param productModel product entity
      * @param productImage product image
      */
-    public void saveProduct(ProductModel productModel, MultipartFile productImage) {
+    public void saveProduct(ProductModel productModel, MultipartFile[] images) {
         try {
-            saveProductImage(productImage, productModel.getProductID());
+            for (int i = 0; i < images.length; i++) {
+                saveProductImage(images[i]);
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }
-        // Sets the original filename with an ID, to prevent duplicated images
-        productModel
-                .setProductFileName1(productModel.getProductID() + productModel.getProductFileName1().toLowerCase());
         productRepository.save(productModel);
 
     }
 
     public List<ProductRecord> getAllProducts() {
         final List<ProductModel> products = productRepository.findAll();
+        return facadeProducts(products);
+    }
+
+    public List<ProductRecord> getProductsByCategory(String categoryName) {
+        final List<ProductModel> products = productRepository.findByProductCategory(categoryName);
+        // ArrayList<ProductRecord> productRecords = new ArrayList<ProductRecord>();
+        // String fileName[] = new String[3];
+        // for (int i = 0; i < products.size(); i++) {
+        // fileName[0] = products.get(i).getProductFileName1();
+        // fileName[1] = products.get(i).getProductFileName2();
+        // fileName[2] = products.get(i).getProductFileName3();
+        // ImagesRecord productImages = getAllProductImages(fileName);
+        // productRecords.add(new ProductRecord(products.get(i), productImages));
+        // }
+        return facadeProducts(products);
+    }
+
+    private List<ProductRecord> facadeProducts(List<ProductModel> products) {
         ArrayList<ProductRecord> productRecords = new ArrayList<ProductRecord>();
-        String fileName = "";
+        String fileName[] = new String[3];
         for (int i = 0; i < products.size(); i++) {
-            fileName = products.get(i).getProductFileName1();
-            productRecords.add(new ProductRecord(products.get(i), getProductImages(fileName)));
+            fileName[0] = products.get(i).getProductFileName1();
+            fileName[1] = products.get(i).getProductFileName2();
+            fileName[2] = products.get(i).getProductFileName3();
+            ImagesRecord productImages = getAllProductImages(fileName);
+            productRecords.add(new ProductRecord(products.get(i), productImages));
         }
         return productRecords;
     }
 
-    private void saveProductImage(MultipartFile productImage, Long productId) throws IOException {
+    private void saveProductImage(MultipartFile productImage) throws IOException {
         if (!productImage.isEmpty()) {
             final byte imageBytes[] = productImage.getBytes();
             final Path productsPath = Paths
-                    .get(getConcatenatedPathInLowerCase(imagesPath, productImage.getOriginalFilename(), productId));
+                    .get(imagesPath, productImage.getOriginalFilename());
             Files.write(productsPath, imageBytes);
             createDirectoryPath(imagesPath);
         }
     }
 
+    /**
+     * it loads all three product images
+     * 
+     * @param fileNames
+     * @return
+     */
+    private ImagesRecord getAllProductImages(String[] fileNames) {
+        final ImagesRecord productImages = new ImagesRecord(getProductImages(fileNames[0]),
+                getProductImages(fileNames[1]), getProductImages(fileNames[2]));
+        return productImages;
+    }
+
+    /**
+     * Loads the image in the images path, and returns in a byte array
+     * 
+     * @param fileName file name
+     * @return array of image bytes
+     */
     private byte[] getProductImages(String fileName) {
         File productImagePath = new File(imagesPath + fileName);
         byte[] imageBytes = null;
