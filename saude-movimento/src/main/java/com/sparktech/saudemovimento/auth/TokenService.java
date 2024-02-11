@@ -57,6 +57,12 @@ public class TokenService {
         return userJwtToken;
     }
 
+    /**
+     * validates the token and return the userName
+     * 
+     * @param token user token
+     * @return userName
+     */
     public String validateUserToken(String token) {
         String userName = "";
         try {

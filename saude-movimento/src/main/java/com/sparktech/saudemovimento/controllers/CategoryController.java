@@ -17,7 +17,7 @@ import com.sparktech.saudemovimento.repositories.CategoryRepository;
 import lombok.AllArgsConstructor;
 
 @RestController
-@RequestMapping("categories")
+@RequestMapping("/categories")
 @AllArgsConstructor
 public class CategoryController {
     CategoryRepository categoryRepository;
@@ -44,8 +44,9 @@ public class CategoryController {
     public ResponseEntity<?> deleteCategory(@PathVariable("categoryId") Long categoryId) {
         if (categoryRepository.existsById(categoryId)) {
             categoryRepository.deleteById(categoryId);
+            return ResponseEntity.ok().body("Success!");
         }
-        return ResponseEntity.ok().body("Success!");
+        return ResponseEntity.badRequest().body("This product does not exist!");
     }
 
 }

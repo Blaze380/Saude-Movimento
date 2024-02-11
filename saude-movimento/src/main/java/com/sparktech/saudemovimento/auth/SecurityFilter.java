@@ -16,6 +16,10 @@ import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
+/**
+ * this class makes the token validation, verifies if the user exists and if the
+ * token is valid
+ */
 @Component
 public class SecurityFilter extends OncePerRequestFilter {
     @Autowired

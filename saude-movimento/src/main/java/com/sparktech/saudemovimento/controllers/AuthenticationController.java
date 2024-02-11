@@ -36,6 +36,7 @@ public class AuthenticationController {
         return ResponseEntity.ok().body(new AuthTokenRecord(token));
     }
 
+    @Deprecated
     @PostMapping("/signup")
     public ResponseEntity<?> signUpUser(@RequestBody UserRecord userRecord) {
         final String userEncryptedPassword = new BCryptPasswordEncoder().encode(userRecord.userPassword());

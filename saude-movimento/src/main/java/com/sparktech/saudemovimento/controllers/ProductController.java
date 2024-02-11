@@ -1,8 +1,7 @@
 package com.sparktech.saudemovimento.controllers;
 
-import java.math.BigDecimal;
-
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -31,7 +30,15 @@ public class ProductController {
      */
     @PostMapping("/private/save-product")
     public ResponseEntity<?> saveProduct(@ModelAttribute ProductFormRecord productForm) {
-        final ProductModel product = ProductConverter.dtoToProductModel(productForm);
+        final ProductModel product = ProductConverter.dtoToProductModel(productForm, productForm.id());
+        final MultipartFile[] images = { productForm.image1(), productForm.image2(), productForm.image3() };
+        productService.saveProduct(product, images);
+        return ResponseEntity.ok("Saved!");
+    }
+
+    @PutMapping("/private/update-product")
+    public ResponseEntity<?> updateProduct(@ModelAttribute ProductFormRecord productForm) {
+        final ProductModel product = ProductConverter.dtoToProductModel(productForm, productForm.id());
         final MultipartFile[] images = { productForm.image1(), productForm.image2(), productForm.image3() };
         productService.saveProduct(product, images);
         return ResponseEntity.ok("Saved!");
@@ -44,6 +51,12 @@ public class ProductController {
 
     @GetMapping("/public/products-by-category/{categoryName}")
     public ResponseEntity<?> getProductByCategory(@PathVariable("categoryName") String categoryName) {
-        return null;
+        return ResponseEntity.ok().body(
+                productService.getProductsByCategory(categoryName));
+    }
+
+    @DeleteMapping("/private/delete-product")
+    public ResponseEntity<?> deleteProduct(@PathVariable("productId") Long productId) {
+        return ResponseEntity.ok("Product Deleted!");
     }
 }

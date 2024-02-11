@@ -12,8 +12,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.sparktech.saudemovimento.models.ProductModel;
+import com.sparktech.saudemovimento.models.converters.ProductConverter;
 import com.sparktech.saudemovimento.models.records.ImagesRecord;
-import com.sparktech.saudemovimento.models.records.ProductRecord;
+import com.sparktech.saudemovimento.models.records.ProductReturnFormRecord;
 import com.sparktech.saudemovimento.repositories.ProductRepository;
 
 import lombok.AllArgsConstructor;
@@ -42,34 +43,25 @@ public class ProductService {
 
     }
 
-    public List<ProductRecord> getAllProducts() {
+    public List<ProductReturnFormRecord> getAllProducts() {
         final List<ProductModel> products = productRepository.findAll();
         return facadeProducts(products);
     }
 
-    public List<ProductRecord> getProductsByCategory(String categoryName) {
+    public List<ProductReturnFormRecord> getProductsByCategory(String categoryName) {
         final List<ProductModel> products = productRepository.findByProductCategory(categoryName);
-        // ArrayList<ProductRecord> productRecords = new ArrayList<ProductRecord>();
-        // String fileName[] = new String[3];
-        // for (int i = 0; i < products.size(); i++) {
-        // fileName[0] = products.get(i).getProductFileName1();
-        // fileName[1] = products.get(i).getProductFileName2();
-        // fileName[2] = products.get(i).getProductFileName3();
-        // ImagesRecord productImages = getAllProductImages(fileName);
-        // productRecords.add(new ProductRecord(products.get(i), productImages));
-        // }
         return facadeProducts(products);
     }
 
-    private List<ProductRecord> facadeProducts(List<ProductModel> products) {
-        ArrayList<ProductRecord> productRecords = new ArrayList<ProductRecord>();
+    private List<ProductReturnFormRecord> facadeProducts(List<ProductModel> products) {
+        ArrayList<ProductReturnFormRecord> productRecords = new ArrayList<ProductReturnFormRecord>();
         String fileName[] = new String[3];
         for (int i = 0; i < products.size(); i++) {
             fileName[0] = products.get(i).getProductFileName1();
             fileName[1] = products.get(i).getProductFileName2();
             fileName[2] = products.get(i).getProductFileName3();
             ImagesRecord productImages = getAllProductImages(fileName);
-            productRecords.add(new ProductRecord(products.get(i), productImages));
+            productRecords.add(ProductConverter.modelToProductDto(products.get(i), productImages));
         }
         return productRecords;
     }
@@ -79,8 +71,8 @@ public class ProductService {
             final byte imageBytes[] = productImage.getBytes();
             final Path productsPath = Paths
                     .get(imagesPath, productImage.getOriginalFilename());
-            Files.write(productsPath, imageBytes);
             createDirectoryPath(imagesPath);
+            Files.write(productsPath, imageBytes);
         }
     }
 
@@ -97,7 +89,7 @@ public class ProductService {
     }
 
     /**
-     * Loads the image in the images path, and returns in a byte array
+     * Loads the image in the images in the local path, and returns in a byte array
      * 
      * @param fileName file name
      * @return array of image bytes
@@ -120,6 +112,7 @@ public class ProductService {
         }
     }
 
+    @Deprecated
     private String getConcatenatedPathInLowerCase(String filePath, String fileName, Long productId) {
         return (filePath + productId + fileName).toLowerCase();
     }

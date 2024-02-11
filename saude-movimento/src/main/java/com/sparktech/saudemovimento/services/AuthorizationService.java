@@ -13,7 +13,6 @@ import lombok.AllArgsConstructor;
 @Service
 @AllArgsConstructor
 public class AuthorizationService implements UserDetailsService {
-    @Autowired
     UserRepository userRepository;
 
     @Override
